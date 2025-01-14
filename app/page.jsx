@@ -1,9 +1,10 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <>
-      <h1>Hello</h1>
+  <>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum aliquet tempus. Etiam feugiat, turpis nec elementum placerat, arcu dui ultricies leo, in varius nunc nulla consequat nulla. Nunc non lacus ipsum. Aliquam commodo metus ac metus bibendum, eu cursus libero dapibus. Nullam non sem pulvinar, hendrerit massa eu, placerat urna. Etiam nec arcu nisi. Suspendisse id felis dolor. Morbi in facilisis lorem. Curabitur fringilla sollicitudin nunc molestie pharetra. Sed fringilla dictum ante eu commodo. Mauris eros purus, laoreet id lobortis eu, auctor eget urna. Praesent egestas convallis est, ut faucibus est luctus nec. Sed sit amet mattis enim. Maecenas mi eros, rutrum sed interdum vel, sagittis eu velit. Mauris non aliquet sapien. Sed ex dolor, maximus in commodo eget, volutpat sit amet velit. Nulla rhoncus blandit semper. Phasellus vitae eros eros. Nunc mattis, mauris quis scelerisque bibendum, ex leo malesuada urna, eget pulvinar diam est ac neque. In consequat eros lectus, vel cursus augue facilisis at.</p>
+      <p className="heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum aliquet tempus. Etiam feugiat, turpis nec elementum placerat, arcu dui ultricies leo, in varius nunc nulla consequat nulla. Nunc non lacus ipsum. Aliquam commodo metus ac metus bibendum, eu cursus libero dapibus. Nullam non sem pulvinar, hendrerit massa eu, placerat urna. Etiam nec arcu nisi. Suspendisse id felis dolor. Morbi in facilisis lorem. Curabitur fringilla sollicitudin nunc molestie pharetra. Sed fringilla dictum ante eu commodo. Mauris eros purus, laoreet id lobortis eu, auctor eget urna. Praesent egestas convallis est, ut faucibus est luctus nec. Sed sit amet mattis enim. Maecenas mi eros, rutrum sed interdum vel, sagittis eu velit. Mauris non aliquet sapien. Sed ex dolor, maximus in commodo eget, volutpat sit amet velit. Nulla rhoncus blandit semper. Phasellus vitae eros eros. Nunc mattis, mauris quis scelerisque bibendum, ex leo malesuada urna, eget pulvinar diam est ac neque. In consequat eros lectus, vel cursus augue facilisis at.</p>
     </>
   );
 }
