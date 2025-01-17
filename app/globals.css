@@ -13,11 +13,42 @@
     @apply font-secondary;
   }
 
+  /* navbar */
+  .navbar-container {
+    @apply
+    container mx-auto flex justify-between items-center py-3 px-6
+    md:px-12
+    lg:px-20
+    2xl:px-28;
+  }
+
   .navbar-icon {
-    @apply w-48 h-12 md:w-56 md:h-14 xl:w-64 xl:h-16;
+    @apply
+    w-48 h-12
+    lg:w-56 lg:h-14
+    2xl:w-64 2xl:h-16;
   }
 
   .navbar-font {
+    @apply
+    heading block hover:text-[#DAA520] m-2 px-2 rounded-md text-sm font-normal py-1
+    md:m-0 md:text-base
+    lg:m-2 lg:text-lg
+    2xl:m-4 2xl:text-xl;
+  }
+
+  .burger-menu-items {
+    @apply
+    gap-3 text-lg absolute top-16 right-7 w-40 rounded-br-xl rounded-bl-xl rounded-tl-xl bg-white transition-all duration-300
+    md:flex md:static md:bg-transparent md:w-auto;
+  }
+
+  .dropdown-menu-item {
+    @apply
+    heading hover:text-[#DAA520] rounded-md text-sm font-normal
+    md:m-0 md:text-base
+    lg:m-2 lg:text-lg
+    2xl:m-4 2xl:text-xl;
     
   }
 }

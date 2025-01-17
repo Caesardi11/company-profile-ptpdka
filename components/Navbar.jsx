@@ -1,6 +1,14 @@
 "use client";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils"; // Jika menggunakan shadcn/ui untuk class merging
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = ({ variant }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +37,7 @@ const Navbar = ({ variant }) => {
                     : "bg-white shadow-xl opacity-90"
             )}
         >
-            <div className="container mx-auto flex justify-between items-center py-4 px-6">
+            <div className="navbar-container">
                 <a href="/">
                     <img
                         src={
@@ -56,22 +64,38 @@ const Navbar = ({ variant }) => {
                 {/* Menu Items */}
                 <div
                     className={cn(
-                        "md:flex gap-6 text-lg absolute md:static top-16 left-0 w-full bg-white md:bg-transparent md:w-auto transition-all duration-300",
+                        "burger-menu-items",
                         isOpen ? "block" : "hidden",
-                        variant === "homepage" && !isScrolled ? "bg-yellow-500 text-white" : "text-black"
-                    )} 
+                        variant === "homepage" && !isScrolled
+                            ? "text-black md:text-white"
+                            : "text-black"
+                    )}
                 >
-                    <a href="/" className="block  hover:text-blue-500">
-                        Home
+                    <a href="/" className="navbar-font">
+                        Beranda
                     </a>
-                    <a href="/about" className="block  hover:text-blue-500">
-                        About Us
+                    <a href="/" className="navbar-font">
+                        Proyek Kami
                     </a>
-                    <a href="/projects" className="block  hover:text-blue-500">
-                        Projects
-                    </a>
-                    <a href="/contact" className="block  hover:text-blue-500">
-                        Contact
+                    <DropdownMenu>
+                        <DropdownMenuTrigger className="navbar-font">Profil Perusahaan <IoIosArrowDown className="inline" />
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent align="start" className="bg-white opacity-90">
+                            <DropdownMenuItem className="dropdown-menu-item">
+                                <a href="/" >
+                                    Tentang Kami
+                                </a>
+                            </DropdownMenuItem>
+                            <DropdownMenuSeparator />
+                            <DropdownMenuItem className="dropdown-menu-item">
+                                <a href="/" >
+                                    Layanan
+                                </a>
+                            </DropdownMenuItem>
+                        </DropdownMenuContent>
+                    </DropdownMenu>
+                    <a href="/" className="navbar-font">
+                        Kontak
                     </a>
                 </div>
             </div>
