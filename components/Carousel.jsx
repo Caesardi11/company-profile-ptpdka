@@ -1,5 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
+import { TfiEmail } from "react-icons/tfi";
+import { RxDividerVertical } from "react-icons/rx";
+import { BsWhatsapp } from "react-icons/bs";
 
 const images = [
     "/carousel-1.png",
@@ -7,7 +10,6 @@ const images = [
     "/carousel-3.png",
     "/carousel-4.png",
     "/carousel-5.png",
-    "/carousel-6.png",
 ];
 
 const Carousel = () => {
@@ -16,7 +18,7 @@ const Carousel = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % images.length);
-        }, 5000);
+        }, 8000);
         return () => clearInterval(interval);
     }, []);
 
@@ -25,17 +27,21 @@ const Carousel = () => {
             {images.map((image, index) => (
                 <div
                     key={index}
-                    className={`absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000 ${
+                    className={`carousel-img ${
                         index === currentSlide ? "opacity-100" : "opacity-0"
                     }`}
                     style={{ backgroundImage: `url(${image})` }}
                 >
-                    <div className="absolute inset-0 bg-black opacity-40"></div>
                 </div>
             ))}
-            <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black/40">
-                <h1 className="text-5xl font-bold">PT. PANCA DUTA KARYA ABADI</h1>
-                <p className="text-lg mt-4 text-[#DAA520]">Engineering Bureau & General Contractor</p>
+            <div className="carousel-container">
+                <h1 className="carousel-heading">PT. PANCA DUTA KARYA ABADI</h1>
+                <h2 className="carousel-subheading">Engineering Bureau & General Contractor</h2>
+                <p className="carousel-info">
+                    <TfiEmail/> <a href="mailto:ptpdka@persero.co.id">ptpdka@persero.co.id</a>
+                        <RxDividerVertical className="ml-5"/> <RxDividerVertical className="mr-5"/>
+                    <BsWhatsapp /> <a href="https://wa.me/628113621253" target="_blank" rel="noopener noreferrer">+62 811-3621-253</a>
+                </p>
             </div>
         </div>
     );
