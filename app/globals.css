@@ -4,19 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
 @layer utilities {
   body {
-    @apply font-primary;
+    @apply font-primary bg-warmWhite1;
   }
   
   .heading {
     @apply font-secondary;
   }
 
-  /*---navbar--*/
+  /* -----COMPONENT----- */
+  /*---Navbar---*/
   .navbar-container {
     @apply
-    container mx-auto flex justify-between items-center py-3 px-6
+    container mx-auto flex justify-between items-center py-2.5 px-6
     md:px-16
     lg:px-28
     2xl:px-32;
@@ -52,7 +59,7 @@
     
   }
 
-  /*---Carousel--*/
+  /*---Carousel---*/
   .carousel-img {
     @apply absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000;
   }
@@ -83,19 +90,73 @@
     md:text-base;
   }
 
-  /* ---content--*/
+  /* ---Stats--- */
+  .stats-container {
+    @apply relative bg-[#FFCC00] my-10;
+  }
+
+  .stats-bg {
+    @apply absolute inset-0;
+  }
+
+  .stats-bg-img {
+    @apply h-full w-full bg-cover bg-center opacity-10;
+  }
+
+  .stats-bg-img-overlay {
+    @apply absolute inset-0 bg-[#DAA520] opacity-60;
+  }
+
+  .stats-content {
+    @apply content-container py-16 relative
+    md:py-5
+    lg:py-16;
+  }
+
+  .stats-display {
+    @apply grid grid-cols-1 gap-x-7 gap-y-10 divide-y divide-coolWhite
+    lg:grid-cols-4 lg:divide-y-0 lg:divide-x
+    xl:grid-cols-4;
+  }
+
+  .stats-item {
+    @apply flex flex-col text-justify text-coolWhite p-4
+    md:p-0 md:text-center
+    lg:p-6 lg:text-justify;
+  }
+
+  .stats-value {
+    @apply flex flex-col flex-1 justify-start;
+  }
+
+  .stats-value1 {
+    @apply heading pt-5 text-4xl font-bold tracking-tight 
+    lg:pt-0 lg:text-5xl;
+  }
+
+  .stats-value2 {
+    @apply heading text-lg font-bold tracking-tight -mt-1
+    md:tracking-wide 
+    lg:text-xl lg:-mt-0;
+  }
+
+  .stats-name {
+    @apply text-base mt-4 text-warmWhite1;
+  }
+
+  /* -----CONTENT-----*/
   .content-container {
     @apply
-    mt-20 mx-auto px-8 text-base
+    mt-20 mx-auto px-8 text-base text-justify
     md:px-16
     lg:px-28
     2xl:px-32
-    text-justify max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }
 
   .quote {
     @apply
-    text-[#DAA520] text-2xl text-center font-semibold italic px-7
+    text-[#FFCC00] text-2xl text-center font-semibold italic px-7
     md:px-14
     lg:px-20
     2xl:px-28
@@ -103,24 +164,23 @@
   }
 
   .indent-text {
-    @apply mt-7 indent-8 lg:mt-0;
+    @apply mt-7 indent-8
+    lg:mt-0;
   }
 
   .grid-container {
-    @apply items-center mt-20 lg:gap-16 lg:grid lg:grid-cols-2;
+    @apply items-center mt-20
+    lg:gap-16 lg:grid lg:grid-cols-2;
   }
 
   .embed-video {
-    @apply w-full h-[315px] rounded-lg md:h-[400px] lg:h-[315px];
+    @apply w-full h-[315px] rounded-lg
+    md:h-[400px]
+    lg:h-[315px];
   }
 
   .text-button {
-    @apply heading mt-6 mb-10 underline text-lg text-[#DAA520] hover:text-[#FFCC00] hover:italic lg:mt-16 lg:mb-0;
-  }
-}
-
-@layer base {
-  :root {
-    --radius: 0.5rem;
+    @apply heading mt-6 mb-10 underline text-lg tracking-widest text-[#DAA520] hover:text-[#FFCC00] hover:italic
+    lg:mt-16 lg:mb-0;
   }
 }

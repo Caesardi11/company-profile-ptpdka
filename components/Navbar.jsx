@@ -32,9 +32,9 @@ const Navbar = ({ variant }) => {
                 "fixed top-0 left-0 w-full z-50 transition-all duration-300",
                 variant === "homepage"
                     ? isScrolled
-                        ? "bg-white shadow-xl opacity-90"
+                        ? "bg-coolWhite shadow-xl opacity-90"
                         : "bg-transparent"
-                    : "bg-white shadow-xl opacity-90"
+                    : "bg-coolWhite shadow-xl opacity-90"
             )}
         >
             <div className="navbar-container">

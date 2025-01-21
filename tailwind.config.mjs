@@ -17,6 +17,11 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			colors: {
+				coolWhite: '#F8F9FA',
+				warmWhite1: '#FDFCFB',
+				warmWhite2: '#FAF9F6'
+			}
 		},
 	},
 	darkMode: false,
