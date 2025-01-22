@@ -37,7 +37,7 @@ const Navbar = ({ variant }) => {
                     : "bg-coolWhite shadow-xl opacity-90"
             )}
         >
-            <div className="navbar-container">
+            <section className="navbar-container">
                 <a href="/">
                     <img
                         src={
@@ -98,7 +98,7 @@ const Navbar = ({ variant }) => {
                         Kontak
                     </a>
                 </div>
-            </div>
+            </section>
         </nav>
     );
 };

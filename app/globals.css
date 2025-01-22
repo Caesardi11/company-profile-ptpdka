@@ -23,7 +23,7 @@
   /*---Navbar---*/
   .navbar-container {
     @apply
-    container mx-auto flex justify-between items-center py-2.5 px-6
+    container mx-auto flex justify-between items-center py-2 px-6
     md:px-16
     lg:px-28
     2xl:px-32;
@@ -31,9 +31,9 @@
 
   .navbar-icon {
     @apply
-    w-48 h-12
-    lg:w-56 lg:h-14
-    2xl:w-64 2xl:h-16;
+    w-40 h-10
+    lg:w-48 lg:h-12
+    2xl:w-56 2xl:h-14;
   }
 
   .navbar-font {
@@ -65,12 +65,12 @@
   }
 
   .carousel-container {
-    @apply absolute inset-0 flex flex-col justify-center items-center text-white text-center bg-black/70;
+    @apply absolute inset-0 flex flex-col justify-center items-center text-center bg-black/70;
   }
 
   .carousel-heading {
     @apply
-    heading font-semibold text-4xl
+    heading font-semibold text-4xl text-coolWhite
     md:text-5xl
     lg:text-6xl
     xl:text-7xl;
@@ -92,7 +92,7 @@
 
   /* ---Stats--- */
   .stats-container {
-    @apply relative bg-[#FFCC00] my-10;
+    @apply relative bg-[#FFCC00] mt-32;
   }
 
   .stats-bg {
@@ -144,10 +144,47 @@
     @apply text-base mt-4 text-warmWhite1;
   }
 
+  /* ---Portofolio--- */
+  .heading-porto {
+    @apply flex justify-between items-end mt-1
+    xl:mt-3;
+  }
+
+  .heading-porto-text {
+    @apply heading font-semibold text-[#DAA520] text-lg
+    md:text-2xl
+    lg:text-3xl
+    xl:text-4xl;
+  }
+
+  .heading-porto-btn {
+    @apply heading underline text-sm tracking-tight text-[#DAA520] hover:text-[#FFCC00] hover:italic
+    md:tracking-widest md:text-lg
+    xl:text-xl;
+  }
+
+  .subheading-porto {
+    @apply text-xs text-gray-500 tracking-wide
+    lg:text-base;
+  }
+
+  .content-porto {
+    @apply grid grid-cols-2 items-end mt-9;
+  }
+
   /* -----CONTENT-----*/
   .content-container {
     @apply
     mt-20 mx-auto px-8 text-base text-justify
+    md:px-16
+    lg:px-28
+    2xl:px-32
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+  }
+
+  .content-container-noTop {
+    @apply
+    py-32 mx-auto px-8 text-base text-justify
     md:px-16
     lg:px-28
     2xl:px-32
@@ -176,11 +213,12 @@
   .embed-video {
     @apply w-full h-[315px] rounded-lg
     md:h-[400px]
-    lg:h-[315px];
+    lg:h-[315px] lg:shadow-xl;
   }
 
   .text-button {
     @apply heading mt-6 mb-10 underline text-lg tracking-widest text-[#DAA520] hover:text-[#FFCC00] hover:italic
-    lg:mt-16 lg:mb-0;
+    lg:mt-16 lg:mb-0
+    xl:text-xl;
   }
 }

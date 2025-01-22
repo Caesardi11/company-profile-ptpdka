@@ -23,7 +23,7 @@ const Carousel = () => {
     }, []);
 
     return (
-        <div className="relative w-full h-screen overflow-hidden">
+        <section className="relative w-full h-screen overflow-hidden">
             {images.map((image, index) => (
                 <div
                     key={index}
@@ -43,7 +43,7 @@ const Carousel = () => {
                     <BsWhatsapp /> <a href="https://wa.me/628113621253" target="_blank" rel="noopener noreferrer">+62 811-3621-253</a>
                 </p>
             </div>
-        </div>
+        </section>
     );
 };
 
