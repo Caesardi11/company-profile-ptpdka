@@ -78,7 +78,7 @@
 
   .carousel-subheading {
     @apply
-    mt-3 text-gray-500 text-base
+    mt-3 text-warmWhite1/60 text-base
     md:text-lg
     lg:text-xl
     xl:text-2xl;
@@ -92,7 +92,8 @@
 
   /* ---Stats--- */
   .stats-container {
-    @apply relative bg-[#FFCC00] mt-32;
+    @apply relative bg-[#FFCC00] mt-20
+    lg:mt-32;
   }
 
   .stats-bg {
@@ -108,7 +109,7 @@
   }
 
   .stats-content {
-    @apply content-container py-16 relative
+    @apply content-container py-2 relative
     md:py-5
     lg:py-16;
   }
@@ -164,12 +165,27 @@
   }
 
   .subheading-porto {
-    @apply text-xs text-gray-500 tracking-wide
+    @apply text-xs text-gray-400 tracking-wide
     lg:text-base;
   }
 
   .content-porto {
     @apply grid grid-cols-2 items-end mt-9;
+  }
+
+  /* ---Client Craousel--- */
+  .heading-client {
+    @apply heading font-semibold text-[#DAA520] text-2xl text-center
+    md:text-3xl
+    lg:text-3xl
+    xl:text-4xl;
+  }
+
+  .subheading-client {
+    @apply px-16 text-center text-xs mt-3 text-gray-400 
+    md:text-sm
+    lg:text-base lg:px-32
+    xl:mt-5 xl:px-36;
   }
 
   /* -----CONTENT-----*/
@@ -184,9 +200,9 @@
 
   .content-container-noTop {
     @apply
-    py-32 mx-auto px-8 text-base text-justify
+    py-14 mx-auto px-8 text-base text-justify
     md:px-16
-    lg:px-28
+    lg:px-28 lg:py-24
     2xl:px-32
     max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }

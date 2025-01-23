@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { cn } from "@/lib/utils"; // Jika menggunakan shadcn/ui untuk class merging
+import { cn } from "@/lib/utils";
 import {
     DropdownMenu,
     DropdownMenuContent,
@@ -16,7 +16,7 @@ const Navbar = ({ variant }) => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 50); // Navbar berubah setelah scroll 50px
+            setIsScrolled(window.scrollY > 50);
         };
 
         // Check scroll position on initial render
@@ -29,12 +29,12 @@ const Navbar = ({ variant }) => {
     return (
         <nav
             className={cn(
-                "fixed top-0 left-0 w-full z-50 transition-all duration-300",
+                "fixed top-0 left-0 w-full z-50 transition-all duration-300 ",
                 variant === "homepage"
                     ? isScrolled
-                        ? "bg-coolWhite shadow-xl opacity-90"
+                        ? "bg-coolWhite/85 shadow-xl backdrop-blur-sm"
                         : "bg-transparent"
-                    : "bg-coolWhite shadow-xl opacity-90"
+                    : "bg-coolWhite/85 shadow-xl backdrop-blur-sm"
             )}
         >
             <section className="navbar-container">

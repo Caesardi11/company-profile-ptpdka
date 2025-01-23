@@ -35,8 +35,8 @@ const Carousel = () => {
                 </div>
             ))}
             <div className="carousel-container">
-                <h1 className="carousel-heading">PT. PANCA DUTA KARYA ABADI</h1>
-                <h2 className="carousel-subheading">Engineering Bureau & General Contractor</h2>
+                <h1 className="carousel-heading pointer-events-none">PT. PANCA DUTA KARYA ABADI</h1>
+                <h2 className="carousel-subheading pointer-events-none">Engineering Bureau & General Contractor</h2>
                 <p className="carousel-info">
                     <TfiEmail/> <a href="mailto:ptpdka@persero.co.id">ptpdka@persero.co.id</a>
                         <RxDividerVertical className="ml-5"/> <RxDividerVertical className="mr-5"/>
