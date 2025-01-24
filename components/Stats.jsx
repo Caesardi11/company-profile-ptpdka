@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 const stats = [
     { id: 1, name: 'Sejak 1983', value1: 70, value2: 'Proyek Terselesaikan' },
     { id: 2, name: 'Pengalaman', value1: 42, value2: 'Tahun' },
-    { id: 3, name: 'Relasi', value1: 46, value2: 'Mitra Pemerintah' },
+    { id: 3, name: 'Relasi', value1: 14, value2: 'Mitra Pemerintah' },
     { id: 4, name: 'Jumlah Karyawan', value1: 190, value2: 'Orang' },
 ];
 

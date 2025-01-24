@@ -152,15 +152,15 @@
   }
 
   .heading-porto-text {
-    @apply heading font-semibold text-[#DAA520] text-lg
-    md:text-2xl
-    lg:text-3xl
-    xl:text-4xl;
+    @apply heading font-semibold text-[#DAA520] text-xl
+    md:text-3xl
+    lg:text-4xl
+    xl:text-5xl;
   }
 
   .heading-porto-btn {
     @apply heading underline text-sm tracking-tight text-[#DAA520] hover:text-[#FFCC00] hover:italic
-    md:tracking-widest md:text-lg
+    md:tracking-widest md:text-base
     xl:text-xl;
   }
 
@@ -175,10 +175,10 @@
 
   /* ---Client Craousel--- */
   .heading-client {
-    @apply heading font-semibold text-[#DAA520] text-2xl text-center
-    md:text-3xl
-    lg:text-3xl
-    xl:text-4xl;
+    @apply heading font-semibold text-[#DAA520] text-3xl text-center
+    md:text-4xl
+    lg:text-5xl
+    xl:text-6xl;
   }
 
   .subheading-client {
@@ -202,7 +202,16 @@
     @apply
     py-14 mx-auto px-8 text-base text-justify
     md:px-16
-    lg:px-28 lg:py-24
+    lg:px-28 lg:py-28
+    2xl:px-32
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+  }
+
+  .content-container-client {
+    @apply
+    pt-12 pb-2 mx-auto px-8 text-base text-justify
+    md:px-16
+    lg:px-28 lg:pt-20 lg:pb-9
     2xl:px-32
     max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }

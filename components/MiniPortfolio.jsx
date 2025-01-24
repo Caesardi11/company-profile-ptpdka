@@ -2,7 +2,6 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FaArrowRightLong } from "react-icons/fa6";
 
 const images = [
     "/carousel-1.png",
@@ -37,13 +36,13 @@ const MiniPortfolio = () => {
     }, []);
 
     return (
-        <div className='bg-[#fffcef]'>
+        <div className='bg-[#fff9dd]'>
             <section className='content-container-noTop'>
                 <h2 className='subheading-porto'>PORTOFOLIO</h2>
                 <div className='heading-porto'>
                     <h1 className='heading-porto-text'>Beberapa Proyek Unggulan Kami</h1>
                     <div className="heading-porto-btn">
-                        <a href="/project">Lihat Portofolio Kami <FaArrowRightLong className="inline" /></a>
+                        <a href="/project">Lihat Portofolio Kami → </a>
                     </div>
                 </div>
                 <div className='grid grid-cols-2 items-end mt-12 gap-4 md:grid-cols-3 xl:grid-cols-4'>

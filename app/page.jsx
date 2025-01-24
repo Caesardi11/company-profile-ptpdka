@@ -1,9 +1,9 @@
 import Carousel from "@/components/Carousel";
 import ClientCarousel from "@/components/ClientCarousel";
+import Collaboration from "@/components/Collaboration";
 import MiniPortfolio from "@/components/MiniPortfolio";
 import Navbar from "@/components/Navbar";
 import Stats from "@/components/Stats";
-import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
           <div>
             <p className="indent-text"><b>PT. Panca Duta Karya Abadi</b> adalah Perusahaan Jasa Konstruksi dan Jasa Pengadaan barang / jasa yang senantiasa mengembangkan dan menerapkan <b>Sistem Manajemen Mutu</b> dengan tujuan untuk meningkatkan kinerja perusahaan guna memberikan / meningkatkan kepuasan bagi para pelanggan / owner dengan cara memenuhi persyaratan yang telah ditetapkan.</p>
             <div className="text-button">
-              <a href="/about">Kenali Kami <FaArrowRightLong className="inline" /></a>
+              <a href="/about">Kenali Kami → </a>
             </div>
           </div>
         </div>
@@ -29,6 +29,7 @@ export default function Home() {
       <Stats/>
       <MiniPortfolio/>
       <ClientCarousel/>
+      <Collaboration/>
     </>
   );
 }
