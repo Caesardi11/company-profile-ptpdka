@@ -2,27 +2,23 @@ import React from 'react';
 
 const Collaboration = () => {
     return (
-        <div className='bg-[#fff9dd]'>
-            <section className='stats-container h-screen bg-cover bg-center'>
+        <div className=''>
+            <section className='collab-container '>
                 <img
-                    src="/carousel-1.png"
+                    src="/kantor-pdka.png"
                     alt="Background Image"
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className="collab-bg"
                 />
-                <div className="absolute inset-0 bg-[#DAA520]/75"></div>
-                <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
-                    <img src="/icon-navbar-2.png" alt="Logo" className="mb-6 h-12" />
-                    <h1 className="text-4xl font-bold mb-4">Build Your Vision to Perfection</h1>
-                    <p className="text-lg mb-6">
-                        Contact us and start your journey to building your dream home with
-                        exceptional quality.
+                <div className="collab-bg-overlay"></div>
+                <div className="collab-content">
+                    <img src="/logo-pdka.png" alt="Logo" className="mb-3 h-12 lg:mb-6" />
+                    <h1 className="collab-heading">Engineering <span className='text-[#ffc800]'>Bureau</span> & General <span className='text-[#ffc800]'>Contractor</span></h1>
+                    <p className="collab-subheading">
+                        Hubungi kami dan mulailah perjalanan Anda dalam mewujudkan proyek impian berkualitas tinggi bersama tim ahli kami.
                     </p>
-                    <a
-                        href="#"
-                        className="inline-block bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200"
-                    >
-                        Konsultasikan Dengan Kami Sekarang →
-                    </a>
+                    <div className="collab-btn">
+                        <a href="/contact"> Konsultasikan dengan kami → </a>
+                    </div>
                 </div>
             </section>
         </div>

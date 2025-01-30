@@ -178,7 +178,6 @@
     @apply heading font-semibold text-[#DAA520] text-3xl text-center
     md:text-4xl
     lg:text-5xl
-    xl:text-6xl;
   }
 
   .subheading-client {
@@ -186,6 +185,53 @@
     md:text-sm
     lg:text-base lg:px-32
     xl:mt-5 xl:px-36;
+  }
+
+  /* ---Collaboration--- */
+  .collab-container {
+    @apply relative bg-[#fff9dd] h-max bg-cover bg-center text-warmWhite2 py-16
+    lg:py-24;
+  }
+
+  .collab-bg {
+    @apply absolute inset-0 w-full h-full object-cover;
+  }
+
+  .collab-bg-overlay {
+    @apply absolute inset-0 bg-[#634a0b] opacity-85;
+  }
+
+  .collab-content {
+    @apply relative z-10 flex flex-col items-center justify-center h-full text-center;
+  }
+
+  .collab-heading {
+    @apply text-3xl font-bold mb-4 mx-20
+    md:text-4xl md:mx-44
+    lg:mx-64 lg:mb-6
+    xl:text-5xl xl:mx-80;
+  }
+
+  .collab-subheading {
+    @apply mx-6 text-sm mb-6
+    md:mx-24
+    lg:text-base lg:mx-44 lg:mb-12
+    xl:text-lg xl:mx-80;
+  }
+
+  .collab-btn {
+    @apply heading underline text-lg tracking-widest text-warmWhite2 hover:text-[#FFCC00] hover:italic
+    md:text-lg
+    xl:text-xl;
+  }
+
+  /* ---Footer--- */
+  .footer-container {
+    @apply py-14 mx-auto px-8 text-base text-justify
+    md:px-16
+    lg:px-28 lg:py-28
+    2xl:px-32
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }
 
   /* -----CONTENT-----*/
@@ -211,7 +257,7 @@
     @apply
     pt-12 pb-2 mx-auto px-8 text-base text-justify
     md:px-16
-    lg:px-28 lg:pt-20 lg:pb-9
+    lg:px-28 lg:pt-32 lg:pb-14
     2xl:px-32
     max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }

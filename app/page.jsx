@@ -1,6 +1,7 @@
 import Carousel from "@/components/Carousel";
 import ClientCarousel from "@/components/ClientCarousel";
 import Collaboration from "@/components/Collaboration";
+import Footer from "@/components/Footer";
 import MiniPortfolio from "@/components/MiniPortfolio";
 import Navbar from "@/components/Navbar";
 import Stats from "@/components/Stats";
@@ -30,6 +31,7 @@ export default function Home() {
       <MiniPortfolio/>
       <ClientCarousel/>
       <Collaboration/>
+      <Footer/>
     </>
   );
 }
