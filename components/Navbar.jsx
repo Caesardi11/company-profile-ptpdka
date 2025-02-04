@@ -94,7 +94,7 @@ const Navbar = ({ variant }) => {
                             </DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
-                    <a href="/" className="navbar-font">
+                    <a href="/contact" className="navbar-font">
                         Kontak
                     </a>
                 </div>

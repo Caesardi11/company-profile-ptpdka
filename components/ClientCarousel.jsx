@@ -28,14 +28,14 @@ const ClientCarousel = () => {
   const autoplay = Autoplay({ delay: 3000 });
 
   return (
-    <div className='bg-[#fffcef]'>
+    <div>
         <section className='content-container-client'>
             <h1 className='heading-client'>Klien Kami</h1>
             <h2 className='subheading-client'>Bekerja sama dengan berbagai instansi pemerintahan, kami berkomitmen untuk memberikan hasil terbaik yang mendukung pembangunan dan pelayanan publik yang berkualitas.</h2>
             <Carousel className='mt-10' opts={{ align: 'start', loop: true }} plugins={[autoplay]}>
                 <CarouselContent>
                     {icons.map((src, index) => (
-                        <CarouselItem key={index} className='basis-1/3 lg:basis-1/5 xl:basis-1/6'>
+                        <CarouselItem key={index} className='basis-1/3 md:basis-1/4 lg:basis-1/5 xl:basis-1/6'>
                             <img 
                                 src={src} 
                                 alt={`Client Logo ${index + 1}`} 
