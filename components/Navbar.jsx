@@ -9,6 +9,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { IoIosArrowDown } from "react-icons/io";
+import Link from "next/link";
 
 const Navbar = ({ variant }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +39,7 @@ const Navbar = ({ variant }) => {
             )}
         >
             <section className="navbar-container">
-                <a href="/">
+                <Link href="/">
                     <img
                         src={
                             variant === "homepage" && !isScrolled
@@ -48,7 +49,7 @@ const Navbar = ({ variant }) => {
                         alt="Logo PT.PDKA"
                         className="navbar-icon"
                     />
-                </a>
+                </Link>
 
                 {/* Burger Menu Button (Mobile) */}
                 <button
@@ -71,32 +72,32 @@ const Navbar = ({ variant }) => {
                             : "text-black"
                     )}
                 >
-                    <a href="/" className="navbar-font">
+                    <Link href="/" className="navbar-font">
                         Beranda
-                    </a>
-                    <a href="/" className="navbar-font">
+                    </Link>
+                    <Link href="/project" className="navbar-font">
                         Proyek Kami
-                    </a>
+                    </Link>
                     <DropdownMenu>
                         <DropdownMenuTrigger className="navbar-font">Profil Perusahaan <IoIosArrowDown className="inline" />
                         </DropdownMenuTrigger>
                         <DropdownMenuContent align="start" className="bg-white opacity-90">
                             <DropdownMenuItem className="dropdown-menu-item">
-                                <a href="/" >
+                                <Link href="/" >
                                     Tentang Kami
-                                </a>
+                                </Link>
                             </DropdownMenuItem>
                             <DropdownMenuSeparator />
                             <DropdownMenuItem className="dropdown-menu-item">
-                                <a href="/" >
+                                <Link href="/" >
                                     Layanan
-                                </a>
+                                </Link>
                             </DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
-                    <a href="/contact" className="navbar-font">
+                    <Link href="/contact-us" className="navbar-font">
                         Kontak
-                    </a>
+                    </Link>
                 </div>
             </section>
         </nav>
