@@ -7,3 +7,5 @@ const ProjectDetail = () => {
 }
 
 export default ProjectDetail
+
+//id, img, path, name, location, type, year, length, client, scope, tombol detail

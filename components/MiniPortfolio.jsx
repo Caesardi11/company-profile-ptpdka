@@ -4,12 +4,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const images = [
-    "/carousel-1.png",
-    "/carousel-2.png",
-    "/carousel-6.png",
-    "/carousel-5.png",
-    "/carousel-4.png",
-    "/carousel-3.png",
+    "/project/project-1.png",
+    "/project/project-2.png",
+    "/project/project-6.png",
+    "/project/project-5.png",
+    "/project/project-4.png",
+    "/project/project-3.png",
 ];
 
 const projectNames = [
@@ -36,7 +36,7 @@ const MiniPortfolio = () => {
     }, []);
 
     return (
-        <div className='bg-[#fff9dd]'>
+        <div className='bg-[#FFFCEC]'>
             <section className='content-container-noTop'>
                 <h2 className='subheading-porto'>PORTOFOLIO</h2>
                 <div className='heading-porto'>

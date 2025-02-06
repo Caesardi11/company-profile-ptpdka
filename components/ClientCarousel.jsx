@@ -8,20 +8,20 @@ import {
 import Autoplay from 'embla-carousel-autoplay';
 
 const icons = [
-  "/logo-pupr.png",
-  "/logo-dephub.png",
-  "/logo-kemkes.png",
-  "/logo-kemenpora.png",
-  "/logo-papua-barat.png",
-  "/logo-papua.png",
-  "/logo-kota-sorong.png",
-  "/logo-kab-sorong.png",
-  "/logo-kab-sorsel.png",
-  "/logo-kab-manokwari.png",
-  "/logo-kab-mansel.png",
-  "/logo-kota-jayapura.png",
-  "/logo-kab-jayapura.png",
-  "/logo-kab-mimika.png",
+  "/partner/logo-pupr.png",
+  "/partner/logo-dephub.png",
+  "/partner/logo-kemkes.png",
+  "/partner/logo-kemenpora.png",
+  "/partner/logo-papua-barat.png",
+  "/partner/logo-papua.png",
+  "/partner/logo-kota-sorong.png",
+  "/partner/logo-kab-sorong.png",
+  "/partner/logo-kab-sorsel.png",
+  "/partner/logo-kab-manokwari.png",
+  "/partner/logo-kab-mansel.png",
+  "/partner/logo-kota-jayapura.png",
+  "/partner/logo-kab-jayapura.png",
+  "/partner/logo-kab-mimika.png",
 ]
 
 const ClientCarousel = () => {

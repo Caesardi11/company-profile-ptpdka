@@ -20,7 +20,8 @@ export default {
 			colors: {
 				coolWhite: '#F8F9FA',
 				warmWhite1: '#FDFCFB',
-				warmWhite2: '#FAF9F6'
+				warmWhite2: '#FAF9F6',
+				smokyWhite: '#F5F5F5'
 			}
 		},
 	},

@@ -152,9 +152,9 @@
 
   .heading-porto-text {
     @apply heading font-semibold text-[#DAA520] text-xl
-    md:text-3xl
-    lg:text-4xl
-    xl:text-5xl;
+    md:text-2xl
+    lg:text-3xl
+    xl:text-4xl;
   }
 
   .heading-porto-btn {
@@ -174,13 +174,13 @@
 
   /* ---Client Craousel--- */
   .heading-client {
-    @apply heading font-semibold text-[#DAA520] text-3xl text-center
-    md:text-4xl
-    lg:text-5xl
+    @apply heading font-semibold text-[#DAA520] text-2xl text-center tracking-wider
+    md:text-3xl
+    lg:text-4xl
   }
 
   .subheading-client {
-    @apply px-16 text-center text-xs mt-3 text-gray-400 
+    @apply px-16 text-center text-xs mt-3 text-gray-400
     md:text-sm
     lg:text-base lg:px-32
     xl:mt-5 xl:px-36;
@@ -188,8 +188,7 @@
 
   /* ---Collaboration--- */
   .collab-container {
-    @apply relative h-max bg-cover bg-center text-warmWhite2 m-10 p-10 
-    lg:m-16
+    @apply relative h-max bg-cover bg-center text-warmWhite2 p-10 
     xl:p-12;
   }
 
@@ -206,16 +205,16 @@
   }
 
   .collab-heading {
-    @apply text-3xl font-bold mb-4 mx-2
-    md:text-4xl md:mx-28
+    @apply text-2xl font-bold mb-4 mx-2
+    md:text-3xl md:mx-28
     lg:mx-52
-    xl:text-5xl xl:mx-64;
+    xl:text-4xl xl:mx-72;
   }
 
   .collab-subheading {
     @apply mx-6 text-sm mb-6
     md:mx-28
-    lg:text-base lg:mx-48 lg:mb-9
+    lg:text-base lg:mx-40 lg:mb-9
     xl:text-lg xl:mx-52;
   }
 

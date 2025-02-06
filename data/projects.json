@@ -1,8 +1,14 @@
 [
     {
-        "id": 1
-    },
-    {
-        "id": 2
+        "id"        : 3,
+        "img"       : "/project/project-3.png",
+        "path"      : "project-3-gedung-kantor-gubernur-papua-barat",
+        "name"      : "Gedung Kantor Gubernur Papua Barat",
+        "location"  : "Manokwari, Papua Barat",
+        "type"      : "Gedung Perkantoran",
+        "year"      : "2015",
+        "length"    : "2005 - 2015",
+        "client"    : "Dinas PUPR Pemerintah Provinsi Papua Barat",
+        "scope"     : "Pematangan Lahan, Pembangunan Gedung, Renovasi Gedung, Pembangunan Lansekap"
     }
 ]
