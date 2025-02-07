@@ -12,7 +12,7 @@ import ProjectCard from '@/components/ProjectCard'
 
 const ProjectPage = () => {
     return (
-        <div className='bg-[#FFFCEC]'>
+        <div className='bg-[#daa5200c]'>
             <section className='bg-[#a37700]'>
                 <div className='h-[50vh] lg:h-[55vh] content-container-noTop'>
                     <p className='heading tracking-widest mt-16 lg:mt-6 text-[#FFCC00] lg:text-lg'>
@@ -34,7 +34,7 @@ const ProjectPage = () => {
                     </Breadcrumb>
                 </div>
             </section>
-            <section className='py-10 mx-auto px-8 text-base text-justify md:px-16 lg:px-28 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
+            <section className='pt-12 mx-auto px-8 text-base text-justify md:px-16 lg:px-28 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
                 <h3 className='subheading-porto'>
                     PROYEK TERBARU
                 </h3>

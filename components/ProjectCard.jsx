@@ -9,23 +9,36 @@ import {
   CardDescription,
   CardFooter,
 } from '@/components/ui/card'
+import {Button, buttonVariants} from '@/components/ui/button'
 
 const ProjectCard = () => {
   return (
-    <section className='grid grid-cols-1 gap-10 mt-10 md:grid-cols-2 lg:grid-cols-3'>
+    <section className='grid grid-cols-1 gap-7 mt-10 md:grid-cols-2 xl:grid-cols-3'>
       {projects.map((project, index) => (
         <Card key={index}>
           <CardHeader>
             <img src={project.img} alt={project.name} className='rounded-tl-md rounded-tr-md' />
           </CardHeader>
           <CardContent>
-            <CardTitle>{project.name}</CardTitle>
-            <CardDescription>{project.location}</CardDescription>
+            <CardTitle>
+              <p className='border-b-2 border-gray-300 pb-2'>
+                {project.name}
+              </p>
+            </CardTitle>
+            <CardDescription>
+              <div className="grid grid-cols-[auto_4px_1fr] gap-x-3 gap-y-1 mt-5">
+                <span className="font-semibold">Lokasi </span><span> :</span><span>{project.location}</span>
+                <span className="font-semibold">Jenis </span><span> :</span><span>{project.type}</span>
+                <span className="font-semibold">Tahun Selesai </span><span> :</span><span>{project.year}</span>
+              </div>
+            </CardDescription>
           </CardContent>
           <CardFooter>
-            <Link href="/{project.path}" className='bg-slate-400 p-2 rounded-full'>
-              Selengkapnya →
-            </Link>
+            <Button variant='default' size='default'>
+              <Link href={`/${project.path}`}>
+                Selengkapnya →
+              </Link>
+            </Button>
           </CardFooter>
         </Card>
       ))}

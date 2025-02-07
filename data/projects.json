@@ -1,14 +1,117 @@
 [
     {
-        "id"        : 3,
+        "id"        : 1,
+        "img"       : "/project/project-1.png",
+        "path"      : "proyek-bandara-mozes-kilangin-timika",
+        "name"      : "Bandar Udara Mozes Kilangin Timika",
+        "location"  : "Timika, Papua",
+        "type"      : "Bandara",
+        "year"      : "2022",
+        "length"    : "2017 - 2022",
+        "client"    : "Dinas Perhubungan Pemerintah Kabupaten Mimika",
+        "scope"     : "Pembangunan Terminal Penumpang",
+        "detail"    : [
+            { "year": "Th. 2017", "description": "Pembangunan Terminal Penumpang Tahap II" },
+            { "year": "Th. 2018", "description": "Pembangunan Terminal Penumpang Tahap III" },
+            { "year": "Th. 2020 - 2021", "description": "Lanjutan Pekerjaan Pembangunan Terminal Tahap V (Selesai)" },
+            { "year": "Th. 2020 - 2022", "description": "Pembangunan Terminal Penumpang Tahap IV (Multi Years)" }
+        ]
+    },
+    {
+        "id"        : 2,
         "img"       : "/project/project-3.png",
-        "path"      : "project-3-gedung-kantor-gubernur-papua-barat",
-        "name"      : "Gedung Kantor Gubernur Papua Barat",
+        "path"      : "proyek-gedung-kantor-gubernur-papua-barat",
+        "name"      : "Pembangunan Gedung Kantor Gubernur Papua Barat",
         "location"  : "Manokwari, Papua Barat",
         "type"      : "Gedung Perkantoran",
         "year"      : "2015",
         "length"    : "2005 - 2015",
         "client"    : "Dinas PUPR Pemerintah Provinsi Papua Barat",
-        "scope"     : "Pematangan Lahan, Pembangunan Gedung, Renovasi Gedung, Pembangunan Lansekap"
+        "scope"     : "Pematangan Lahan, Pembangunan Gedung, Renovasi Gedung, Pembangunan Lansekap",
+        "detail"    : [
+            { "year": "Th. 2005", "description": "Pematangan Tanah dan Pek Gedung Kantor Gub. Irian Jaya Barat" },
+            { "year": "Th. 2006", "description": "Proyek Kantor Gub. Irian Jaya Barat" },
+            { "year": "Th. 2007", "description": "Proyek Renovasi Kantor Gub. Irian Jaya Barat" },
+            { "year": "Th. 2009", "description": "Proyek Kantor Gub. Papua Barat" },
+            { "year": "Th. 2010", "description": "Pengadaan Rangka Baja dan Erection Pembangunan Kantor Gub Prov Papua Barat" },
+            { "year": "Th. 2011", "description": "Pembangunan Gedung Kantor Gubernur Provinsi Papua Barat" },
+            { "year": "Th. 2012", "description": "Kantor Gubernur Papua Barat" },
+            { "year": "Th. 2013", "description": "Pembangunan Gedung Kantor Gubernur Provinsi Papua Barat" },
+            { "year": "Th. 2014", "description": "Pembangunan Gedung Kantor Gubernur Provinsi Papua Barat" },
+            { "year": "Th. 2015", "description": "Pembangunan Landscape Kantor Gubernur" },
+            { "year": "Th. 2015", "description": "Pembangunan Landscape Tahap II Kantor Gubernur" }
+        ]
+    },
+    {
+        "id"        : 3,
+        "img"       : "/project/project-4.png",
+        "path"      : "proyek-gedung-rumah-sakit-umum-daerah-provinsi-papua-barat",
+        "name"      : "Pembangunan Gedung Rumah Sakit Umum Daerah Provinsi Papua Barat",
+        "location"  : "Manokwari, Papua Barat",
+        "type"      : "Rumah Sakit",
+        "year"      : "2022",
+        "length"    : "2015 - 2022",
+        "client"    : "Dinas Kesehatan Pemerintah Provinsi Papua Barat",
+        "scope"     : "Pembangunan Gedung",
+        "detail"    : [
+            { "year": "Th. 2015", "description": "Pembangunan Gedung Rumah Sakit Rujukan Provinsi Tahap I" },
+            { "year": "Th. 2016", "description": "Pembangunan Gedung RSUD Sakit Rujukan Provinsi Tahap III" },
+            { "year": "Th. 2017", "description": "Pembangunan Gedung RSUD Sakit Rujukan Provinsi Papua Barat Tahap IV" },
+            { "year": "Th. 2018", "description": "Pembangunan RSUD Rujukan Provinsi Tahap V" },
+            { "year": "Th. 2019", "description": "Pembangunan RSUD Provinsi Tahap VI" },
+            { "year": "Th. 2020", "description": "Pembangunan RSUD Provinsi Tahap VII" },
+            { "year": "Th. 2021", "description": "Pembangunan RSUD Provinsi Papua Barat Tahap VIII" },
+            { "year": "Th. 2022", "description": "Pembangunan RSUD Provinsi Papua Barat Tahap IX" }
+        ]
+    },
+    {
+        "id"        : 4,
+        "img"       : "/project/project-5.png",
+        "path"      : "proyek-jembatan-iqpan",
+        "name"      : "Pembangunan Jembatan Iqpan",
+        "location"  : "Timika, Papua",
+        "type"      : "Jembatan",
+        "year"      : "2012",
+        "length"    : "2012",
+        "client"    : "Dinas PUPR Pemerintah Provinsi Papua",
+        "scope"     : "Pembangunan Jembatan",
+        "detail"    : [
+            { "year": "Th. 2012", "description": "Pembangunan Jembatan Iqpan" }
+        ]
+    },
+    {
+        "id"        : 5,
+        "img"       : "/project/project-6.png",
+        "path"      : "proyek-gor-kaimana",
+        "name"      : "Pembangunan Gedung Olahraga Kaimana",
+        "location"  : "Kaimana, Papua Barat",
+        "type"      : "Gedung Olahraga",
+        "year"      : "2020",
+        "length"    : "2017 - 2020",
+        "client"    : "Dinas PUPR Pemerintah Kabupaten Kaimana",
+        "scope"     : "Pembangunan Gedung",
+        "detail"    : [
+            { "year": "Th. 2017", "description": "Pembangunan GOR Tahap III" },
+            { "year": "Th. 2018", "description": "Pembangunan GOR (Lanjutan)" },
+            { "year": "Th. 2019", "description": "Pembangunan GOR Lanjutan" },
+            { "year": "Th. 2020", "description": "Pembangunan GOR KAIMANA (Lanjutan)" }
+        ]
+    },
+    {
+        "id"        : 6,
+        "img"       : "/project/project-2.png",
+        "path"      : "proyek-gedung-kantor-bupati-kaimana",
+        "name"      : "Pembangunan Gedung Kantor Bupati Kaimana",
+        "location"  : "Kaimana, Papua Barat",
+        "type"      : "Gedung Perkantoran",
+        "year"      : "2019",
+        "length"    : "2017 - 2019",
+        "client"    : "Dinas PUPR Pemerintah Kabupaten Kaimana",
+        "scope"     : "Pembangunan Gedung",
+        "detail"    : [
+            { "year": "Th. 2017", "description": "Pembangunan Gedung Kantor Bupati Kaimana" },
+            { "year": "Th. 2018", "description": "Pembangunan Gedung Kantor Bupati Kaimana" },
+            { "year": "Th. 2019", "description": "Pembangunan Gedung Kantor Bupati Kaimana" }
+        ]
     }
 ]
