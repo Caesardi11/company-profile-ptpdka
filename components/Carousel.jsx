@@ -6,10 +6,10 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const images = [
     "/project/project-1.png",
+    "/project/project-1-1.png",
     "/project/project-2.png",
     "/project/project-3.png",
     "/project/project-4.png",
-    "/project/project-5.png",
 ];
 
 const Carousel = () => {

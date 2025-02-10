@@ -21,7 +21,7 @@ const ProjectCard = () => {
           </CardHeader>
           <CardContent>
             <CardTitle>
-              <p className='border-b-2 border-gray-300 pb-2'>
+              <p className=' pb-2'>
                 {project.name}
               </p>
             </CardTitle>
