@@ -1,6 +1,7 @@
 import React from 'react'
 import projects from '../data/projects.json'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Card,
   CardHeader,
@@ -9,15 +10,15 @@ import {
   CardDescription,
   CardFooter,
 } from '@/components/ui/card'
-import {Button, buttonVariants} from '@/components/ui/button'
+import {Button} from '@/components/ui/button'
 
 const ProjectCard = () => {
   return (
-    <section className='grid grid-cols-1 gap-7 mt-10 md:grid-cols-2 xl:grid-cols-3'>
+    <section className='project-card-display'>
       {projects.map((project, index) => (
         <Card key={index}>
           <CardHeader>
-            <img src={project.img} alt={project.name} className='rounded-tl-md rounded-tr-md' />
+            <Image src={project.thumbnail} alt={project.name} className='rounded-tl-md rounded-tr-md' height={50} width={700}/>
           </CardHeader>
           <CardContent>
             <CardTitle>
@@ -26,7 +27,7 @@ const ProjectCard = () => {
               </p>
             </CardTitle>
             <CardDescription>
-              <div className="grid grid-cols-[auto_4px_1fr] gap-x-3 gap-y-1 mt-5">
+              <div className="project-card-description-display">
                 <span className="font-semibold">Lokasi </span><span> :</span><span>{project.location}</span>
                 <span className="font-semibold">Jenis </span><span> :</span><span>{project.type}</span>
                 <span className="font-semibold">Tahun Selesai </span><span> :</span><span>{project.year}</span>
@@ -35,7 +36,7 @@ const ProjectCard = () => {
           </CardContent>
           <CardFooter>
             <Button variant='default' size='default'>
-              <Link href={`/${project.path}`}>
+              <Link href={`/project/${project.path}`}>
                 Selengkapnya →
               </Link>
             </Button>

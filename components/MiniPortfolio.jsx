@@ -4,17 +4,17 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const images = [
-    "/project/project-1.png",
-    "/project/project-13-3.png",
-    "/project/project-5.png",
+    "/project/project-15.png",
+    "/project/project-14-3.png",
+    "/project/project-9.png",
     "/project/project-4.png",
-    "/project/project-3.png",
-    "/project/project-2.png",
+    "/project/project-13.png",
+    "/project/project-5.png",
 ];
 
 const projectNames = [
     "Bandar Udara Mozes Kilangin",
-    "Area Suporter Stadion Bawela",
+    "Stadion Bawela",
     "GOR Kaimana",
     "Jembatan Iqpan",
     "Rumah Sakit Umum Daerah Provinsi Papua Barat",

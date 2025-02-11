@@ -1,4 +1,6 @@
 import React from 'react'
+//tolong importkan data dari projects.json dengan benar agar data bisa ditarik dari file json tersebut
+import projects from '@/data/projects.json'
 
 const ProjectDetail = () => {
   return (

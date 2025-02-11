@@ -21,7 +21,7 @@ CardHeader.displayName = "CardHeader"
 const CardTitle = React.forwardRef(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn("heading font-medium leading-none tracking-wide text-start text-xl min-h-[4rem] border-b-2 border-gray-300", className)}
+    className={cn("heading font-medium leading-none tracking-wide text-start text-xl border-b-2 border-gray-300 md:min-h-[4rem]", className)}
     {...props} />
 ))
 CardTitle.displayName = "CardTitle"

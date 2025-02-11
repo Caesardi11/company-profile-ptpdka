@@ -1,9 +1,15 @@
 [
     {
-        "id"        : 1,
-        "img"       : "/project/project-1.png",
-        "path"      : "proyek-bandara-mozes-kilangin-timika",
-        "name"      : "Bandar Udara Mozes Kilangin Timika",
+        "id"        : 15,
+        "thumbnail" : "/project/project-15.png",
+        "img"       : [
+            "/project/project-15-1.png",
+            "/project/project-15-2.png",
+            "/project/project-15-3.png",
+            "/project/project-15-4.png"
+        ],
+        "path"      : "proyek-bandara-mozes-kilangin",
+        "name"      : "Pembangunan Bandar Udara Mozes Kilangin",
         "location"  : "Timika, Papua",
         "type"      : "Bandara",
         "year"      : "2022",
@@ -20,8 +26,252 @@
         ]
     },
     {
-        "id"        : 2,
-        "img"       : "/project/project-2.png",
+        "id"        : 14,
+        "thumbnail" : "/project/project-14.png",
+        "img"       : [
+            "/project/project-14-1.png",
+            "/project/project-14-2.png",
+            "/project/project-14-3.png",
+            "/project/project-14-4.png"
+        ],
+        "path"      : "proyek-stadion-bawela",
+        "name"      : "Pembangunan Stadion Bawela",
+        "location"  : "Sorong, Papua Barat Daya",
+        "type"      : "Stadion",
+        "year"      : "2022",
+        "length"    : "2021 - 2022",
+        "client"    : "Dinas Pemuda dan Olahraga Pemerintah Kota Sorong",
+        "scope"     : [
+            "Pembangunan Stadion"
+        ],
+        "detail"    : [
+            { "year": "Th. 2021", "description": "Pembangunan Stadion Bawela" },
+            { "year": "Th. 2022", "description": "Pembangunan Stadion Bawela Tahap III" },
+            { "year": "Th. 2022", "description": "Pembangunan Stadion Bawela Lanjutan Tahap IV" }
+        ]
+    },
+    {
+        "id"        : 13,
+        "thumbnail" : "/project/project-13.png",
+        "img"       : [
+            "/project/project-13-1.png",
+            "/project/project-13-2.png",
+            "/project/project-13-3.png",
+            "/project/project-13-4.png"
+        ],
+        "path"      : "proyek-gedung-rsud-provinsi-papua-barat",
+        "name"      : "Pembangunan Gedung RSUD Provinsi Papua Barat",
+        "location"  : "Manokwari, Papua Barat",
+        "type"      : "Rumah Sakit",
+        "year"      : "2022",
+        "length"    : "2015 - 2022",
+        "client"    : "Dinas Kesehatan Pemerintah Provinsi Papua Barat",
+        "scope"     : [
+            "Pembangunan Gedung"
+        ],
+        "detail"    : [
+            { "year": "Th. 2015", "description": "Pembangunan Gedung Rumah Sakit Rujukan Provinsi Tahap I" },
+            { "year": "Th. 2016", "description": "Pembangunan Gedung RSUD Sakit Rujukan Provinsi Tahap III" },
+            { "year": "Th. 2017", "description": "Pembangunan Gedung RSUD Sakit Rujukan Provinsi Papua Barat Tahap IV" },
+            { "year": "Th. 2018", "description": "Pembangunan RSUD Rujukan Provinsi Tahap V" },
+            { "year": "Th. 2019", "description": "Pembangunan RSUD Provinsi Tahap VI" },
+            { "year": "Th. 2020", "description": "Pembangunan RSUD Provinsi Tahap VII" },
+            { "year": "Th. 2021", "description": "Pembangunan RSUD Provinsi Papua Barat Tahap VIII" },
+            { "year": "Th. 2022", "description": "Pembangunan RSUD Provinsi Papua Barat Tahap IX" }
+        ]
+    },
+    {
+        "id"        : 12,
+        "thumbnail" : "/project/project-12.png",
+        "img"       : [
+            "/project/project-12-1.png",
+            "/project/project-12-2.png",
+            "/project/project-12-3.png",
+            "/project/project-12-4.png"
+        ],
+        "path"      : "proyek-gedung-billiard-timika",
+        "name"      : "Pembangunan Gedung Billiard Timika",
+        "location"  : "Timika, Papua",
+        "type"      : "Gedung Olahraga",
+        "year"      : "2021",
+        "length"    : "2019 - 2021",
+        "client"    : "Dinas PUPR Pemerintah Kabupaten Mimika",
+        "scope"     : [
+            "Pematangan Lahan",
+            "Pembangunan Gedung",
+            "Pembangunan Jalan Masuk"
+        ],
+        "detail"    : [
+            { "year": "Th. 2019", "description": "Pematangan Lahan, Pembangunan Gedung Olah Raga dan Pembangunan Jalan Masuk Gedung (Tahap I) Billiard I" },
+            { "year": "Th. 2020", "description": "Pembangunan Gedung Billiard Tahap II" },
+            { "year": "Th. 2021", "description": "Pembangunan Gedung Billiard Tahap II (Lanjutan)" }
+        ]
+    },
+    {
+        "id"        : 11,
+        "thumbnail" : "/project/project-11.png",
+        "img"       : [
+            "/project/project-11-1.png",
+            "/project/project-11-2.png",
+            "/project/project-11-3.png",
+            "/project/project-11-4.png"
+        ],
+        "path"      : "proyek-gedung-kantor-bpkad-kabupaten-kaimana",
+        "name"      : "Pembangunan Gedung Kantor BPKAD Kabupaten Kaimana",
+        "location"  : "Kaimana, Papua Barat",
+        "type"      : "Gedung Perkantoran",
+        "year"      : "2021",
+        "length"    : "2019 - 2021",
+        "client"    : "Badan Pengelolaan Keuangan dan Aset Daerah Pemerintah Kabupaten Kaimana",
+        "scope"     : "Pembangunan Gedung",
+        "detail"    : [
+            { "year": "Th. 2019", "description": "Pembangunan Gedung Kantor BPKAD Tahap I" },
+            { "year": "Th. 2020", "description": "Pembangunan Gedung Kantor BPKAD Tahap II" },
+            { "year": "Th. 2021", "description": "Pembangunan Gedung Kantor BPKAD Tahap III" },
+            { "year": "Th. 2021", "description": "Penyelesaian Pembangunan Gedung Kantor BPKAD Tahap III Lanjutan" }
+        ]
+    },
+    {
+        "id"        : 10,
+        "thumbnail" : "/project/project-10.png",
+        "img"       : [
+            "/project/project-10-1.png",
+            "/project/project-10-2.png",
+            "/project/project-10-3.png",
+            "/project/project-10-4.png"
+        ],
+        "path"      : "proyek-gedung-kantor-dprd-kabupaten-kaimana",
+        "name"      : "Pembangunan Gedung Kantor DPRD Kabupaten Kaimana",
+        "location"  : "Kaimana, Papua Barat",
+        "type"      : "Gedung Perkantoran",
+        "year"      : "2021",
+        "length"    : "2017 - 2021",
+        "client"    : "Dinas PUPR Pemerintah Kabupaten Kaimana",
+        "scope"     : [
+            "Pembangunan Gedung"
+        ],
+        "detail"    : [
+            { "year": "Th. 2017", "description": "Pembangunan Kantor DPRD Tahap V" },
+            { "year": "Th. 2018", "description": "Pembangunan Kantor DPRD Tahap VI" },
+            { "year": "Th. 2019", "description": "Pembangunan Kantor DPRD Lanjutan Tahap VII" },
+            { "year": "Th. 2020 - 2021", "description": "Pembangunan Kantor DPRD Lanjutan" }
+        ]
+    },
+    {
+        "id"        : 9,
+        "thumbnail" : "/project/project-9.png",
+        "img"       : [
+            "/project/project-9-1.png",
+            "/project/project-9-2.png",
+            "/project/project-9-3.png",
+            "/project/project-9-4.png"
+        ],
+        "path"      : "proyek-gor-kaimana",
+        "name"      : "Pembangunan Gedung Olahraga Kaimana",
+        "location"  : "Kaimana, Papua Barat",
+        "type"      : "Gedung Olahraga",
+        "year"      : "2020",
+        "length"    : "2017 - 2020",
+        "client"    : "Dinas PUPR Pemerintah Kabupaten Kaimana",
+        "scope"     : [
+            "Pembangunan Gedung"
+        ],
+        "detail"    : [
+            { "year": "Th. 2017", "description": "Pembangunan GOR Tahap III" },
+            { "year": "Th. 2018", "description": "Pembangunan GOR (Lanjutan)" },
+            { "year": "Th. 2019", "description": "Pembangunan GOR Lanjutan" },
+            { "year": "Th. 2020", "description": "Pembangunan GOR KAIMANA (Lanjutan)" }
+        ]
+    },
+    {
+        "id"        : 8,
+        "thumbnail" : "/project/project-8.png",
+        "img"       : [
+            "/project/project-8-1.png",
+            "/project/project-8-2.png",
+            "/project/project-8-3.png",
+            "/project/project-8-4.png"
+        ],
+        "path"      : "proyek-sarana-watpres-lantamal-xiv-sorong",
+        "name"      : "Pembangunan Sarana Water Presure Lantamal XIV Sorong",
+        "location"  : "Sorong, Papua Barat Daya",
+        "type"      : "Sarana",
+        "year"      : "2020",
+        "length"    : "2020",
+        "client"    : "Mabesal TNI AL",
+        "scope"     : [
+            "Pembangunan Sarana"
+        ],
+        "detail"    : [
+            { "year": "Th. 2020", "description": "Pembangunan Sarana Watpres Lantamal XIV Sorong" }
+        ]
+    },
+    {
+        "id"        : 7,
+        "thumbnail" : "/project/project-7.png",
+        "img"       : [
+            "/project/project-7-1.png",
+            "/project/project-7-2.png",
+            "/project/project-7-3.png"
+        ],
+        "path"      : "proyek-gedung-vip-kantor-walikota-sorong",
+        "name"      : "Pembangunan Gedung VIP Kantor Walikota Sorong",
+        "location"  : "Sorong, Papua Barat Daya",
+        "type"      : "Gedung Perkantoran",
+        "year"      : "2019",
+        "length"    : "2017 - 2019",
+        "client"    : "Dinas PUPR Pemerintah Kota Sorong",
+        "scope"     : [
+            "Pembangunan Gedung"
+        ],
+        "detail"    : [
+            { "year": "Th. 2017", "description": "Pembangunan Gedung VIP Kantor Walikota Sorong (Arsitektur, Struktur dan MEP Gedung VIP)" },
+            { "year": "Th. 2017", "description": "Pembangunan Gedung VIP Kantor Walikota Sorong (Arsitektur, Struktur dan MEP Gedung VIP)" },
+            { "year": "Th. 2018", "description": "Pembangunan Gedung VIP Kantor Walikota" },
+            { "year": "Th. 2019", "description": "Pembangunan Gedung VIP Samping" }
+        ]
+    },
+    {
+        "id"        : 6,
+        "thumbnail" : "/project/project-6.png",
+        "img"       : [
+            "/project/project-6-1.png",
+            "/project/project-6-2.png",
+            "/project/project-6-3.png",
+            "/project/project-6-4.png"
+        ],
+        "path"      : "proyek-bandara-deo",
+        "name"      : "Pembangunan Bandar Udara Domine Eduard Osok",
+        "location"  : "Sorong, Papua Barat Daya",
+        "type"      : "Bandara",
+        "year"      : "2017",
+        "length"    : "2014 - 2017",
+        "client"    : "Kementerian Perhubungan Dirjen Perhubungan Udara Bandara DEO Sorong",
+        "scope"     : [
+            "Pembangunan Terminal Penumpang",
+            "Penambahan Arsitektur, Struktur dan Sarana Penunjang",
+            "Pengamanan Abrasi Pantai",
+            "Pekerjaan Water Supply System",
+            "Pekerjaan Fire Hydrant"
+        ],
+        "detail"    : [
+            { "year": "Th. 2014", "description": "Lanjutan Pembangunan Gedung (Bandar Udara DEO Sorong)" },
+            { "year": "Th. 2015", "description": "Lanjutan Pembangunan Gedung (Bandar Udara DEO Sorong)" },
+            { "year": "Th. 2015", "description": "Penambahan Arsitektur, Struktur dan Sarana Penunjang Terminal Bandara DEO Sorong" },
+            { "year": "Th. 2016", "description": "Pengamanan Abrasi Pantai Bandara DEO Sorong" },
+            { "year": "Th. 2017", "description": "Pekerjaan Water Supply System Bandara DEO Sorong"},
+            { "year": "Th. 2017", "description": "Pekerjaan Lanjutan Fire Hydrant Bandara DEO Sorong"}
+        ]
+    },
+    {
+        "id"        : 5,
+        "thumbnail" : "/project/project-5.png",
+        "img"       : [
+            "/project/project-5-1.png",
+            "/project/project-5-2.png",
+            "/project/project-5-3.png",
+            "/project/project-5-4.png"
+        ],
         "path"      : "proyek-gedung-kantor-gubernur-papua-barat",
         "name"      : "Pembangunan Gedung Kantor Gubernur Papua Barat",
         "location"  : "Manokwari, Papua Barat",
@@ -50,32 +300,14 @@
         ]
     },
     {
-        "id"        : 3,
-        "img"       : "/project/project-3.png",
-        "path"      : "proyek-gedung-rsud-provinsi-papua-barat",
-        "name"      : "Pembangunan Gedung Rumah Sakit Umum Daerah Provinsi Papua Barat",
-        "location"  : "Manokwari, Papua Barat",
-        "type"      : "Rumah Sakit",
-        "year"      : "2022",
-        "length"    : "2015 - 2022",
-        "client"    : "Dinas Kesehatan Pemerintah Provinsi Papua Barat",
-        "scope"     : [
-            "Pembangunan Gedung"
-        ],
-        "detail"    : [
-            { "year": "Th. 2015", "description": "Pembangunan Gedung Rumah Sakit Rujukan Provinsi Tahap I" },
-            { "year": "Th. 2016", "description": "Pembangunan Gedung RSUD Sakit Rujukan Provinsi Tahap III" },
-            { "year": "Th. 2017", "description": "Pembangunan Gedung RSUD Sakit Rujukan Provinsi Papua Barat Tahap IV" },
-            { "year": "Th. 2018", "description": "Pembangunan RSUD Rujukan Provinsi Tahap V" },
-            { "year": "Th. 2019", "description": "Pembangunan RSUD Provinsi Tahap VI" },
-            { "year": "Th. 2020", "description": "Pembangunan RSUD Provinsi Tahap VII" },
-            { "year": "Th. 2021", "description": "Pembangunan RSUD Provinsi Papua Barat Tahap VIII" },
-            { "year": "Th. 2022", "description": "Pembangunan RSUD Provinsi Papua Barat Tahap IX" }
-        ]
-    },
-    {
         "id"        : 4,
-        "img"       : "/project/project-4.png",
+        "thumbnail" : "/project/project-4.png",
+        "img"       : [
+            "/project/project-4-1.png",
+            "/project/project-4-2.png",
+            "/project/project-4-3.png",
+            "/project/project-4-4.png"
+        ],
         "path"      : "proyek-jembatan-iqpan",
         "name"      : "Pembangunan Jembatan Iqpan",
         "location"  : "Timika, Papua",
@@ -91,92 +323,14 @@
         ]
     },
     {
-        "id"        : 5,
-        "img"       : "/project/project-5.png",
-        "path"      : "proyek-gor-kaimana",
-        "name"      : "Pembangunan Gedung Olahraga Kaimana",
-        "location"  : "Kaimana, Papua Barat",
-        "type"      : "Gedung Olahraga",
-        "year"      : "2020",
-        "length"    : "2017 - 2020",
-        "client"    : "Dinas PUPR Pemerintah Kabupaten Kaimana",
-        "scope"     : [
-            "Pembangunan Gedung"
+        "id"        : 3,
+        "thumbnail" : "/project/project-3.png",
+        "img"       : [
+            "/project/project-3-1.png",
+            "/project/project-3-2.png",
+            "/project/project-3-3.png",
+            "/project/project-3-4.png"
         ],
-        "detail"    : [
-            { "year": "Th. 2017", "description": "Pembangunan GOR Tahap III" },
-            { "year": "Th. 2018", "description": "Pembangunan GOR (Lanjutan)" },
-            { "year": "Th. 2019", "description": "Pembangunan GOR Lanjutan" },
-            { "year": "Th. 2020", "description": "Pembangunan GOR KAIMANA (Lanjutan)" }
-        ]
-    },
-    {
-        "id"        : 6,
-        "img"       : "/project/project-6.png",
-        "path"      : "proyek-gedung-kantor-bpkad-kabupaten-kaimana",
-        "name"      : "Pembangunan Gedung Kantor BPKAD Kabupaten Kaimana",
-        "location"  : "Kaimana, Papua Barat",
-        "type"      : "Gedung Perkantoran",
-        "year"      : "2021",
-        "length"    : "2019 - 2021",
-        "client"    : "Badan Pengelolaan Keuangan dan Aset Daerah Pemerintah Kabupaten Kaimana",
-        "scope"     : "Pembangunan Gedung",
-        "detail"    : [
-            { "year": "Th. 2019", "description": "Pembangunan Gedung Kantor BPKAD Tahap I" },
-            { "year": "Th. 2020", "description": "Pembangunan Gedung Kantor BPKAD Tahap II" },
-            { "year": "Th. 2021", "description": "Pembangunan Gedung Kantor BPKAD Tahap III" },
-            { "year": "Th. 2021", "description": "Penyelesaian Pembangunan Gedung Kantor BPKAD Tahap III Lanjutan" }
-        ]
-    },
-    {
-        "id"        : 7,
-        "img"       : "/project/project-7.png",
-        "path"      : "proyek-gedung-kantor-dprd-kabupaten-kaimana",
-        "name"      : "Pembangunan Gedung Kantor DPRD Kabupaten Kaimana",
-        "location"  : "Kaimana, Papua Barat",
-        "type"      : "Gedung Perkantoran",
-        "year"      : "2021",
-        "length"    : "2017 - 2021",
-        "client"    : "Dinas PUPR Pemerintah Kabupaten Kaimana",
-        "scope"     : [
-            "Pembangunan Gedung"
-        ],
-        "detail"    : [
-            { "year": "Th. 2017", "description": "Pembangunan Kantor DPRD Tahap V" },
-            { "year": "Th. 2018", "description": "Pembangunan Kantor DPRD Tahap VI" },
-            { "year": "Th. 2019", "description": "Pembangunan Kantor DPRD Lanjutan Tahap VII" },
-            { "year": "Th. 2020 - 2021", "description": "Pembangunan Kantor DPRD Lanjutan" }
-        ]
-    },
-    {
-        "id"        : 8,
-        "img"       : "/project/project-8.png",
-        "path"      : "proyek-bandara-deo-sorong",
-        "name"      : "Pembangunan Bandar Udara Domine Eduard Osok",
-        "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Bandara",
-        "year"      : "2017",
-        "length"    : "2014 - 2017",
-        "client"    : "Kementerian Perhubungan Dirjen Perhubungan Udara Bandara DEO Sorong",
-        "scope"     : [
-            "Pembangunan Terminal Penumpang",
-            "Penambahan Arsitektur, Struktur dan Sarana Penunjang",
-            "Pengamanan Abrasi Pantai",
-            "Pekerjaan Water Supply System",
-            "Pekerjaan Fire Hydrant"
-        ],
-        "detail"    : [
-            { "year": "Th. 2014", "description": "Lanjutan Pembangunan Gedung (Bandar Udara DEO Sorong)" },
-            { "year": "Th. 2015", "description": "Lanjutan Pembangunan Gedung (Bandar Udara DEO Sorong)" },
-            { "year": "Th. 2015", "description": "Penambahan Arsitektur, Struktur dan Sarana Penunjang Terminal Bandara DEO Sorong" },
-            { "year": "Th. 2016", "description": "Pengamanan Abrasi Pantai Bandara DEO Sorong" },
-            { "year": "Th. 2017", "description": "Pekerjaan Water Supply System Bandara DEO Sorong"},
-            { "year": "Th. 2017", "description": "Pekerjaan Lanjutan Fire Hydrant Bandara DEO Sorong"}
-        ]
-    },
-    {
-        "id"        : 9,
-        "img"       : "/project/project-9.png",
         "path"      : "proyek-gedung-kantor-walikota-sorong",
         "name"      : "Pembangunan Gedung Kantor Walikota Sorong",
         "location"  : "Sorong, Papua Barat Daya",
@@ -208,8 +362,14 @@
         ]
     },
     {
-        "id"        : 10,
-        "img"       : "/project/project-10.png",
+        "id"        : 2,
+        "thumbnail" : "/project/project-2.png",
+        "img"       : [
+            "/project/project-2-1.png",
+            "/project/project-2-2.png",
+            "/project/project-2-3.png",
+            "/project/project-2-4.png"
+        ],
         "path"      : "proyek-jembatan-sungai-kasi",
         "name"      : "Pembangunan Jembatan Sungai Kasi",
         "location"  : "Manokwari, Papua Barat",
@@ -230,85 +390,14 @@
         ]
     },
     {
-        "id"        : 11,
-        "img"       : "/project/project-11.png",
-        "path"      : "proyek-sarana-watpres-lantamal-xiv-sorong",
-        "name"      : "Pembangunan Sarana Water Presure Lantamal XIV Sorong",
-        "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Sarana",
-        "year"      : "2020",
-        "length"    : "2020",
-        "client"    : "Mabesal TNI AL",
-        "scope"     : [
-            "Pembangunan Sarana"
+        "id"        : 1,
+        "thumbnail" : "/project/project-1.png",
+        "img"       : [
+            "/project/project-1-1.png",
+            "/project/project-1-2.png",
+            "/project/project-1-3.png",
+            "/project/project-1-4.png"
         ],
-        "detail"    : [
-            { "year": "Th. 2020", "description": "Pembangunan Sarana Watpres Lantamal XIV Sorong" }
-        ]
-    },
-    {
-        "id"        : 12,
-        "img"       : "/project/project-12.png",
-        "path"      : "proyek-gedung-vip-kantor-walikota-sorong",
-        "name"      : "Pembangunan Gedung VIP Kantor Walikota Sorong",
-        "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Gedung Perkantoran",
-        "year"      : "2019",
-        "length"    : "2017 - 2019",
-        "client"    : "Dinas PUPR Pemerintah Kota Sorong",
-        "scope"     : [
-            "Pembangunan Gedung"
-        ],
-        "detail"    : [
-            { "year": "Th. 2017", "description": "Pembangunan Gedung VIP Kantor Walikota Sorong (Arsitektur, Struktur dan MEP Gedung VIP)" },
-            { "year": "Th. 2017", "description": "Pembangunan Gedung VIP Kantor Walikota Sorong (Arsitektur, Struktur dan MEP Gedung VIP)" },
-            { "year": "Th. 2018", "description": "Pembangunan Gedung VIP Kantor Walikota" },
-            { "year": "Th. 2019", "description": "Pembangunan Gedung VIP Samping" }
-        ]
-    },
-    {
-        "id"        : 13,
-        "img"       : "/project/project-13.png",
-        "path"      : "proyek-stadion-bawela",
-        "name"      : "Pembangunan Stadion Bawela",
-        "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Stadion",
-        "year"      : "2022",
-        "length"    : "2021 - 2022",
-        "client"    : "Dinas Pemuda dan Olahraga Pemerintah Kota Sorong",
-        "scope"     : [
-            "Pembangunan Stadion"
-        ],
-        "detail"    : [
-            { "year": "Th. 2021", "description": "Pembangunan Stadion Bawela" },
-            { "year": "Th. 2022", "description": "Pembangunan Stadion Bawela Tahap III" },
-            { "year": "Th. 2022", "description": "Pembangunan Stadion Bawela Lanjutan Tahap IV" }
-        ]
-    },
-    {
-        "id"        : 14,
-        "img"       : "/project/project-14.png",
-        "path"      : "proyek-gedung-billiard",
-        "name"      : "Pembangunan Gedung Billiard",
-        "location"  : "Timika, Papua",
-        "type"      : "Gedung Olahraga",
-        "year"      : "2021",
-        "length"    : "2019 - 2021",
-        "client"    : "Dinas PUPR Pemerintah Kabupaten Mimika",
-        "scope"     : [
-            "Pematangan Lahan",
-            "Pembangunan Gedung",
-            "Pembangunan Jalan Masuk"
-        ],
-        "detail"    : [
-            { "year": "Th. 2019", "description": "Pematangan Lahan, Pembangunan Gedung Olah Raga dan Pembangunan Jalan Masuk Gedung (Tahap I) Billiard I" },
-            { "year": "Th. 2020", "description": "Pembangunan Gedung Billiard Tahap II" },
-            { "year": "Th. 2021", "description": "Pembangunan Gedung Billiard Tahap II (Lanjutan)" }
-        ]
-    },
-    {
-        "id"        : 15,
-        "img"       : "/project/project-15.png",
         "path"      : "proyek-jembatan-pomako",
         "name"      : "Pembangunan Jembatan Pomako",
         "location"  : "Timika, Papua",
