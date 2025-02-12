@@ -8,7 +8,7 @@
             "/project/project-15-3.png",
             "/project/project-15-4.png"
         ],
-        "path"      : "proyek-bandara-mozes-kilangin",
+        "path"      : "bandara-mozes-kilangin",
         "name"      : "Pembangunan Bandar Udara Mozes Kilangin",
         "location"  : "Timika, Papua",
         "type"      : "Bandara",
@@ -34,7 +34,7 @@
             "/project/project-14-3.png",
             "/project/project-14-4.png"
         ],
-        "path"      : "proyek-stadion-bawela",
+        "path"      : "stadion-bawela",
         "name"      : "Pembangunan Stadion Bawela",
         "location"  : "Sorong, Papua Barat Daya",
         "type"      : "Stadion",
@@ -59,7 +59,7 @@
             "/project/project-13-3.png",
             "/project/project-13-4.png"
         ],
-        "path"      : "proyek-gedung-rsud-provinsi-papua-barat",
+        "path"      : "gedung-rsud-provinsi-papua-barat",
         "name"      : "Pembangunan Gedung RSUD Provinsi Papua Barat",
         "location"  : "Manokwari, Papua Barat",
         "type"      : "Rumah Sakit",
@@ -89,7 +89,7 @@
             "/project/project-12-3.png",
             "/project/project-12-4.png"
         ],
-        "path"      : "proyek-gedung-billiard-timika",
+        "path"      : "gedung-billiard-timika",
         "name"      : "Pembangunan Gedung Billiard Timika",
         "location"  : "Timika, Papua",
         "type"      : "Gedung Olahraga",
@@ -116,7 +116,7 @@
             "/project/project-11-3.png",
             "/project/project-11-4.png"
         ],
-        "path"      : "proyek-gedung-kantor-bpkad-kabupaten-kaimana",
+        "path"      : "gedung-kantor-bpkad-kabupaten-kaimana",
         "name"      : "Pembangunan Gedung Kantor BPKAD Kabupaten Kaimana",
         "location"  : "Kaimana, Papua Barat",
         "type"      : "Gedung Perkantoran",
@@ -140,7 +140,7 @@
             "/project/project-10-3.png",
             "/project/project-10-4.png"
         ],
-        "path"      : "proyek-gedung-kantor-dprd-kabupaten-kaimana",
+        "path"      : "gedung-kantor-dprd-kabupaten-kaimana",
         "name"      : "Pembangunan Gedung Kantor DPRD Kabupaten Kaimana",
         "location"  : "Kaimana, Papua Barat",
         "type"      : "Gedung Perkantoran",
@@ -166,7 +166,7 @@
             "/project/project-9-3.png",
             "/project/project-9-4.png"
         ],
-        "path"      : "proyek-gor-kaimana",
+        "path"      : "gedung-olahraga-kaimana",
         "name"      : "Pembangunan Gedung Olahraga Kaimana",
         "location"  : "Kaimana, Papua Barat",
         "type"      : "Gedung Olahraga",
@@ -192,7 +192,7 @@
             "/project/project-8-3.png",
             "/project/project-8-4.png"
         ],
-        "path"      : "proyek-sarana-watpres-lantamal-xiv-sorong",
+        "path"      : "sarana-watpres-lantamal-xiv-sorong",
         "name"      : "Pembangunan Sarana Water Presure Lantamal XIV Sorong",
         "location"  : "Sorong, Papua Barat Daya",
         "type"      : "Sarana",
@@ -214,7 +214,7 @@
             "/project/project-7-2.png",
             "/project/project-7-3.png"
         ],
-        "path"      : "proyek-gedung-vip-kantor-walikota-sorong",
+        "path"      : "gedung-vip-kantor-walikota-sorong",
         "name"      : "Pembangunan Gedung VIP Kantor Walikota Sorong",
         "location"  : "Sorong, Papua Barat Daya",
         "type"      : "Gedung Perkantoran",
@@ -240,7 +240,7 @@
             "/project/project-6-3.png",
             "/project/project-6-4.png"
         ],
-        "path"      : "proyek-bandara-deo",
+        "path"      : "bandara-domine-eduard-osok",
         "name"      : "Pembangunan Bandar Udara Domine Eduard Osok",
         "location"  : "Sorong, Papua Barat Daya",
         "type"      : "Bandara",
@@ -272,7 +272,7 @@
             "/project/project-5-3.png",
             "/project/project-5-4.png"
         ],
-        "path"      : "proyek-gedung-kantor-gubernur-papua-barat",
+        "path"      : "gedung-kantor-gubernur-papua-barat",
         "name"      : "Pembangunan Gedung Kantor Gubernur Papua Barat",
         "location"  : "Manokwari, Papua Barat",
         "type"      : "Gedung Perkantoran",
@@ -308,7 +308,7 @@
             "/project/project-4-3.png",
             "/project/project-4-4.png"
         ],
-        "path"      : "proyek-jembatan-iqpan",
+        "path"      : "jembatan-iqpan",
         "name"      : "Pembangunan Jembatan Iqpan",
         "location"  : "Timika, Papua",
         "type"      : "Jembatan",
@@ -331,7 +331,7 @@
             "/project/project-3-3.png",
             "/project/project-3-4.png"
         ],
-        "path"      : "proyek-gedung-kantor-walikota-sorong",
+        "path"      : "gedung-kantor-walikota-sorong",
         "name"      : "Pembangunan Gedung Kantor Walikota Sorong",
         "location"  : "Sorong, Papua Barat Daya",
         "type"      : "Gedung Perkantoran",
@@ -370,7 +370,7 @@
             "/project/project-2-3.png",
             "/project/project-2-4.png"
         ],
-        "path"      : "proyek-jembatan-sungai-kasi",
+        "path"      : "jembatan-sungai-kasi",
         "name"      : "Pembangunan Jembatan Sungai Kasi",
         "location"  : "Manokwari, Papua Barat",
         "type"      : "Jembatan",
@@ -398,7 +398,7 @@
             "/project/project-1-3.png",
             "/project/project-1-4.png"
         ],
-        "path"      : "proyek-jembatan-pomako",
+        "path"      : "jembatan-pomako",
         "name"      : "Pembangunan Jembatan Pomako",
         "location"  : "Timika, Papua",
         "type"      : "Jembatan",

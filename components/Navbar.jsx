@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { IoIosArrowDown } from "react-icons/io";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = ({ variant }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +41,7 @@ const Navbar = ({ variant }) => {
         >
             <section className="navbar-container">
                 <Link href="/">
-                    <img
+                    <Image
                         src={
                             variant === "homepage" && !isScrolled
                                 ? "/icon-navbar-2.png"
@@ -48,6 +49,8 @@ const Navbar = ({ variant }) => {
                         }
                         alt="Logo PT.PDKA"
                         className="navbar-icon"
+                        width={500}
+                        height={200}
                     />
                 </Link>
 

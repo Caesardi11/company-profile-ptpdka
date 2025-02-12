@@ -2,6 +2,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const images = [
     "/project/project-15.png",
@@ -52,10 +53,12 @@ const MiniPortfolio = () => {
                             className={`${index === 0 ? 'col-span-2' : ''} ${index === 3 ? 'col-span-2 xl:col-span-1' : ''} ${index === 4 ? 'md:col-span-2 xl:col-span-1' : ''} ${index === 5 ? 'col-span-1 xl:col-span-2' : ''} relative group`}
                             data-aos={animations[index % animations.length]}
                         >
-                            <img 
+                            <Image 
                                 src={src} 
                                 alt={`Portfolio Image ${index + 1}`} 
-                                className='w-full h-48 md:h-64 2xl:h-80 object-cover rounded-lg' 
+                                className='w-full h-48 md:h-64 2xl:h-80 object-cover rounded-lg'
+                                width={700}
+                                height={400}
                             />
                             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center rounded-lg transition-opacity duration-300">
                                 <span className="text-white text-center text-lg p-5 pointer-events-none">{projectNames[index]}</span>

@@ -6,6 +6,7 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import Autoplay from 'embla-carousel-autoplay';
+import Image from 'next/image';
 
 const icons = [
   "/partner/logo-pupr.png",
@@ -36,10 +37,12 @@ const ClientCarousel = () => {
                 <CarouselContent>
                     {icons.map((src, index) => (
                         <CarouselItem key={index} className='basis-1/3 md:basis-1/4 lg:basis-1/5 xl:basis-1/6'>
-                            <img 
+                            <Image 
                                 src={src} 
                                 alt={`Client Logo ${index + 1}`} 
                                 className='w-full h-1/2 object-contain'
+                                width={200}
+                                height={200}
                             />
                         </CarouselItem>
                     ))}

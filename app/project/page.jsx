@@ -13,6 +13,9 @@ import ProjectCard from '@/components/ProjectCard'
 export const metadata = {
     title: 'Proyek Kami - pancadutakaryaabadi.com',
     description: 'Lihat proyek terbaru dan unggulan kami di halaman ini.',
+    icons: {
+        icon: '/logo-pdka.png',
+    },
 }
 
 const ProjectPage = () => {

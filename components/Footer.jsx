@@ -3,6 +3,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { PiPhoneFill } from "react-icons/pi";
 import { ImYoutube } from "react-icons/im";
 import { IoIosMail } from "react-icons/io";
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
         <div className='footer-content'>
           <div className='border-b-2 border-gray-700'>
             <a href="/" className='left-content-link'>
-              <img src="/icon-navbar-2.png" alt="Logo PDKA" className='left-content-img'/>
+              <Image src="/icon-navbar-2.png" alt="Logo PDKA" width={250} height={200}/>
             </a>
           </div>
           <div className='border-b-2 border-gray-700 center-container'>
