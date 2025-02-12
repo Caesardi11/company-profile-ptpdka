@@ -6,7 +6,8 @@ const getProjectByPath = (projectPath) => {
 };
 
 export async function generateMetadata({ params }) {
-    const project = getProjectByPath(params.projectPath);
+    const { projectPath } = await params;
+    const project = getProjectByPath(projectPath);
 
     if (!project) return { title: "Proyek Tidak Ditemukan" };
 
@@ -18,9 +19,9 @@ export async function generateMetadata({ params }) {
         },
     };
 }
-
-export default function ProjectDetails({ params }) {
-    const project = getProjectByPath(params.projectPath);
+export default async function ProjectDetails({ params }) {
+    const { projectPath } = await params;
+    const project = getProjectByPath(projectPath);
 
     if (!project) {
         return <div>Project not found</div>;
@@ -28,12 +29,13 @@ export default function ProjectDetails({ params }) {
 
     return (
         <div>
-            <section className='bg-[#a37700] h-[50vh] lg:h-[75vh] mx-auto'>
+            <section className='bg-[#a37700] h-[65vh] md:h-[75vh] lg:h-[60vh] mx-auto relative'>
                 <img src={project.thumbnail} alt={project.name} className='w-full h-full bg-center object-cover' />
+                <div className='absolute inset-0 bg-black opacity-40'></div>
             </section>
             <section className='project-detail-container'>
-                <h1 className='heading font-black text-3xl mb-4 tracking-wider lg:text-4xl lg:mb-6'>{project.name}</h1>
-                <div className='grid grid-cols-1 gap-5 lg:grid-cols-2'>
+                <h1 className='heading font-black text-start text-3xl tracking-wider mb-10 md:mb-6 md:min-h-[4rem] lg:min-h-[0rem] lg:text-4xl'>{project.name}</h1>
+                <div className='grid grid-cols-1 gap-8 lg:grid-cols-2'>
                     <div>
                         <img src={project.thumbnail} alt={project.name} style={{ width: '100%', height: 'auto' }} />
                     </div>

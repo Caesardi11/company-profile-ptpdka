@@ -35,11 +35,11 @@ const ProjectCard = () => {
             </CardDescription>
           </CardContent>
           <CardFooter>
-            <Button variant='default' size='default'>
-              <Link href={`/project/${project.path}`}>
+            <Link href={`/project/${project.path}`}>
+              <Button variant='default' size='default'>
                 Selengkapnya →
-              </Link>
-            </Button>
+              </Button>
+            </Link>
           </CardFooter>
         </Card>
       ))}
