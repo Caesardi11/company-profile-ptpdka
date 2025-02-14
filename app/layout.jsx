@@ -6,13 +6,13 @@ import { usePathname } from "next/navigation";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
-  const isProjectPath = pathname.startsWith("/project/");
+  const isHomepage = pathname === "/";
 
   return (
     <html lang="en">
       <body className="font-primary antialiased">
-        <Navbar variant={isProjectPath ? "" : "homepage"} />
-        <div className={isProjectPath ? "mt-14 lg:mt-16" : ""}>
+        <Navbar variant={isHomepage ? "homepage" : ""} />
+        <div className={!isHomepage ? "mt-14 lg:mt-16" : ""}>
           {children}
         </div>
         <Footer />

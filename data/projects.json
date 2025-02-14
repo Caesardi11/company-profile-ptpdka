@@ -12,9 +12,9 @@
         "path"      : "bandara-mozes-kilangin",
         "name"      : "Pembangunan Bandar Udara Mozes Kilangin",
         "location"  : "Timika, Papua",
-        "type"      : "Bandara",
+        "type"      : "Konstruksi Gedung Lainnya",
         "year"      : "2022",
-        "length"    : "2017 - 2022",
+        "time"      : "2017 - 2022",
         "client"    : "Dinas Perhubungan Pemerintah Kabupaten Mimika",
         "scope"     : [
             "Pembangunan Terminal Penumpang"
@@ -39,9 +39,9 @@
         "path"      : "stadion-bawela",
         "name"      : "Pembangunan Stadion Bawela",
         "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Stadion",
+        "type"      : "Konstruksi Bangunan Sipil Fasilitas Olahraga",
         "year"      : "2022",
-        "length"    : "2021 - 2022",
+        "time"      : "2021 - 2022",
         "client"    : "Dinas Pemuda dan Olahraga Pemerintah Kota Sorong",
         "scope"     : [
             "Pembangunan Stadion"
@@ -65,9 +65,9 @@
         "path"      : "gedung-rsud-provinsi-papua-barat",
         "name"      : "Pembangunan Gedung RSUD Provinsi Papua Barat",
         "location"  : "Manokwari, Papua Barat",
-        "type"      : "Rumah Sakit",
+        "type"      : "Konstruksi Gedung Kesehatan",
         "year"      : "2022",
-        "length"    : "2015 - 2022",
+        "time"      : "2015 - 2022",
         "client"    : "Dinas Kesehatan Pemerintah Provinsi Papua Barat",
         "scope"     : [
             "Pembangunan Gedung"
@@ -96,9 +96,9 @@
         "path"      : "gedung-billiard-timika",
         "name"      : "Pembangunan Gedung Billiard Timika",
         "location"  : "Timika, Papua",
-        "type"      : "Gedung Olahraga",
+        "type"      : "Gedung Hiburan dan Olahraga",
         "year"      : "2021",
-        "length"    : "2019 - 2021",
+        "time"      : "2019 - 2021",
         "client"    : "Dinas PUPR Pemerintah Kabupaten Mimika",
         "scope"     : [
             "Pematangan Lahan",
@@ -124,11 +124,13 @@
         "path"      : "gedung-kantor-bpkad-kabupaten-kaimana",
         "name"      : "Pembangunan Gedung Kantor BPKAD Kabupaten Kaimana",
         "location"  : "Kaimana, Papua Barat",
-        "type"      : "Gedung Perkantoran",
+        "type"      : "Konstruksi Gedung Perkantoran",
         "year"      : "2021",
-        "length"    : "2019 - 2021",
+        "time"      : "2019 - 2021",
         "client"    : "Badan Pengelolaan Keuangan dan Aset Daerah Pemerintah Kabupaten Kaimana",
-        "scope"     : "Pembangunan Gedung",
+        "scope"     : [
+            "Pembangunan Gedung"
+        ],
         "detail"    : [
             { "year": "Th. 2019", "description": "Pembangunan Gedung Kantor BPKAD Tahap I" },
             { "year": "Th. 2020", "description": "Pembangunan Gedung Kantor BPKAD Tahap II" },
@@ -149,9 +151,9 @@
         "path"      : "gedung-kantor-dprd-kabupaten-kaimana",
         "name"      : "Pembangunan Gedung Kantor DPRD Kabupaten Kaimana",
         "location"  : "Kaimana, Papua Barat",
-        "type"      : "Gedung Perkantoran",
+        "type"      : "Konstruksi Gedung Perkantoran",
         "year"      : "2021",
-        "length"    : "2017 - 2021",
+        "time"      : "2017 - 2021",
         "client"    : "Dinas PUPR Pemerintah Kabupaten Kaimana",
         "scope"     : [
             "Pembangunan Gedung"
@@ -176,9 +178,9 @@
         "path"      : "gedung-olahraga-kaimana",
         "name"      : "Pembangunan Gedung Olahraga Kaimana",
         "location"  : "Kaimana, Papua Barat",
-        "type"      : "Gedung Olahraga",
+        "type"      : "Gedung Hiburan dan Olahraga",
         "year"      : "2020",
-        "length"    : "2017 - 2020",
+        "time"      : "2017 - 2020",
         "client"    : "Dinas PUPR Pemerintah Kabupaten Kaimana",
         "scope"     : [
             "Pembangunan Gedung"
@@ -203,9 +205,9 @@
         "path"      : "sarana-watpres-lantamal-xiv-sorong",
         "name"      : "Pembangunan Sarana Water Presure Lantamal XIV Sorong",
         "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Sarana",
+        "type"      : "Konstruksi Bangunan Sipil Fasilitas Olahraga",
         "year"      : "2020",
-        "length"    : "2020",
+        "time"      : "2020",
         "client"    : "Mabesal TNI AL",
         "scope"     : [
             "Pembangunan Sarana"
@@ -226,9 +228,9 @@
         "path"      : "gedung-vip-kantor-walikota-sorong",
         "name"      : "Pembangunan Gedung VIP Kantor Walikota Sorong",
         "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Gedung Perkantoran",
+        "type"      : "Konstruksi Gedung Perkantoran",
         "year"      : "2019",
-        "length"    : "2017 - 2019",
+        "time"      : "2017 - 2019",
         "client"    : "Dinas PUPR Pemerintah Kota Sorong",
         "scope"     : [
             "Pembangunan Gedung"
@@ -253,9 +255,9 @@
         "path"      : "bandara-domine-eduard-osok",
         "name"      : "Pembangunan Bandar Udara Domine Eduard Osok",
         "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Bandara",
+        "type"      : "Konstruksi Gedung Lainnya",
         "year"      : "2017",
-        "length"    : "2014 - 2017",
+        "time"      : "2014 - 2017",
         "client"    : "Kementerian Perhubungan Dirjen Perhubungan Udara Bandara DEO Sorong",
         "scope"     : [
             "Pembangunan Terminal Penumpang",
@@ -286,9 +288,9 @@
         "path"      : "gedung-kantor-gubernur-papua-barat",
         "name"      : "Pembangunan Gedung Kantor Gubernur Papua Barat",
         "location"  : "Manokwari, Papua Barat",
-        "type"      : "Gedung Perkantoran",
+        "type"      : "Konstruksi Gedung Perkantoran",
         "year"      : "2015",
-        "length"    : "2005 - 2015",
+        "time"      : "2005 - 2015",
         "client"    : "Dinas PUPR Pemerintah Provinsi Papua Barat",
         "scope"     : [
             "Pematangan Lahan",
@@ -323,9 +325,9 @@
         "path"      : "jembatan-iqpan",
         "name"      : "Pembangunan Jembatan Iqpan",
         "location"  : "Timika, Papua",
-        "type"      : "Jembatan",
+        "type"      : "Bangunan Sipil Jembatan",
         "year"      : "2012",
-        "length"    : "2012",
+        "time"      : "2012",
         "client"    : "Dinas PUPR Pemerintah Provinsi Papua",
         "scope"     : [
             "Pembangunan Jembatan"
@@ -347,9 +349,9 @@
         "path"      : "gedung-kantor-walikota-sorong",
         "name"      : "Pembangunan Gedung Kantor Walikota Sorong",
         "location"  : "Sorong, Papua Barat Daya",
-        "type"      : "Gedung Perkantoran",
+        "type"      : "Konstruksi Gedung Perkantoran",
         "year"      : "2009",
-        "length"    : "2002 - 2009",
+        "time"      : "2002 - 2009",
         "client"    : "Dinas PUPR Pemerintah Kota Sorong",
         "scope"     : [
             "Pembangunan Gedung",
@@ -387,9 +389,9 @@
         "path"      : "jembatan-sungai-kasi",
         "name"      : "Pembangunan Jembatan Sungai Kasi",
         "location"  : "Manokwari, Papua Barat",
-        "type"      : "Jembatan",
+        "type"      : "Bangunan Sipil Jembatan",
         "year"      : "2008",
-        "length"    : "2003 - 2008",
+        "time"      : "2003 - 2008",
         "client"    : "Dinas PUPR Pemerintah Provinsi Papua Barat",
         "scope"     : [
             "Pembangunan Jembatan"
@@ -416,9 +418,9 @@
         "path"      : "jembatan-pomako",
         "name"      : "Pembangunan Jembatan Pomako",
         "location"  : "Timika, Papua",
-        "type"      : "Jembatan",
+        "type"      : "Bangunan Sipil Jembatan",
         "year"      : "2006",
-        "length"    : "2000 - 2006",
+        "time"      : "2000 - 2006",
         "client"    : "Dinas PUPR Pemerintah Provinsi Papua",
         "scope"     : [
             "Pembangunan Jembatan",

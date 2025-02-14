@@ -1,14 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { IoIosArrowDown } from "react-icons/io";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -81,23 +73,9 @@ const Navbar = ({ variant }) => {
                     <Link href="/project" className="navbar-font">
                         Proyek Kami
                     </Link>
-                    <DropdownMenu>
-                        <DropdownMenuTrigger className="navbar-font">Profil Perusahaan <IoIosArrowDown className="inline" />
-                        </DropdownMenuTrigger>
-                        <DropdownMenuContent align="start" className="bg-white opacity-90">
-                            <DropdownMenuItem className="dropdown-menu-item">
-                                <Link href="/" >
-                                    Tentang Kami
-                                </Link>
-                            </DropdownMenuItem>
-                            <DropdownMenuSeparator />
-                            <DropdownMenuItem className="dropdown-menu-item">
-                                <Link href="/" >
-                                    Layanan
-                                </Link>
-                            </DropdownMenuItem>
-                        </DropdownMenuContent>
-                    </DropdownMenu>
+                    <Link href="/company-profile" className="navbar-font">
+                        Profil Perusahaan
+                    </Link>
                     <Link href="/contact-us" className="navbar-font">
                         Kontak
                     </Link>

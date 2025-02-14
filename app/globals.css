@@ -52,10 +52,6 @@
     @apply gap-3 text-lg absolute top-16 right-7 w-40 rounded-br-xl rounded-bl-xl rounded-tl-xl bg-white transition-all duration-300 md:flex md:static md:bg-transparent md:w-auto;
   }
 
-  .dropdown-menu-item {
-    @apply heading hover:text-[#DAA520] rounded-md text-sm font-normal md:m-0 md:text-base lg:m-2 lg:text-lg 2xl:m-4 2xl:text-xl;
-  }
-
   /* ---Footer--- */
   .footer-container {
     @apply relative w-full py-9 px-10
@@ -424,9 +420,39 @@
   }
 
   .project-card-description-display {
-    @apply grid grid-cols-[auto_4px_1fr] gap-x-3 gap-y-1 mt-5
+    @apply grid grid-cols-[auto_4px_1fr] gap-x-3 gap-y-1 mt-5 text-start
     md:min-h-[6rem]
     lg:min-h-[0rem];
+  }
+
+  /* ---Project Detail Card--- */
+  .project-detail-thumbnail-container {
+    @apply h-[65vh] mx-auto relative
+    md:h-[75vh]
+    lg:h-[60vh];
+  }
+
+  .project-detail-thumbnail {
+    @apply w-full h-full bg-center object-cover;
+  }
+
+  .project-detail-thumbnail-overlay {
+    @apply absolute inset-0 bg-black opacity-40;
+  }
+
+  .project-detail-title {
+    @apply heading font-black text-start text-3xl tracking-wider mb-10 
+    md:min-h-[4rem]
+    lg:min-h-[0rem] lg:text-4xl;
+  }
+  
+  .project-detail-display {
+    @apply grid grid-cols-[auto_4px_1fr] gap-x-4 gap-y-1 text-start mb-2;
+  }
+
+  .project-detail-content-display {
+    @apply grid grid-cols-1 gap-7
+    xl:gap-10 xl:grid-cols-5;
   }
 
   /* -----PROJECT CONTAINER----- */

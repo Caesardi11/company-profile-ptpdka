@@ -1,6 +1,8 @@
 import React from 'react';
 import projects from '@/data/projects.json';
 import ProjectDetailCard from '@/components/ProjectDetailCard';
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 const getProjectByPath = (projectPath) => {
     return projects.find((project) => project.path === projectPath);
@@ -33,13 +35,20 @@ export default async function ProjectDetails({ params }) {
 
     return (
         <div>
-            <section className='bg-[#a37700] h-[65vh] md:h-[75vh] lg:h-[60vh] mx-auto relative'>
-                <img src={project.thumbnail} alt={project.name} className='w-full h-full bg-center object-cover' />
-                <div className='absolute inset-0 bg-black opacity-40'></div>
+            <section className='project-detail-thumbnail-container'>
+                <img src={project.thumbnail} alt={project.name} className='project-detail-thumbnail' />
+                <div className='project-detail-thumbnail-overlay'></div>
             </section>
             <section className='project-detail-container'>
-                <h1 className='heading font-black text-start text-3xl tracking-wider mb-10 md:min-h-[4rem] lg:min-h-[0rem] lg:text-4xl'>{project.name}</h1>
+                <h1 className='project-detail-title'>{project.name}</h1>
                 <ProjectDetailCard project={project} />
+                <div className='flex justify-end mt-5'>
+                    <Link href='/project'>
+                        <Button variant='default' size='default'>
+                            Kembali ke Proyek
+                        </Button>
+                    </Link>
+                </div>
             </section>
         </div>
     );

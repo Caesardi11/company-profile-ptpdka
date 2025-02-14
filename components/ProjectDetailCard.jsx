@@ -1,13 +1,19 @@
 "use client";
 import React from 'react';
 import { useState } from 'react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const ProjectDetailCard = ({ project }) => {
     const [selectedImage, setSelectedImage] = useState(project.img[0]);
     
     return (
-        <div className='grid grid-cols-1 gap-8 lg:grid-cols-2'>
-            <div>
+        <div className='project-detail-content-display'>
+            <div className='xl:col-span-3'>
                 {/* Image Gallery */}
                 <div>
                     <img
@@ -21,20 +27,45 @@ const ProjectDetailCard = ({ project }) => {
                                 key={index}
                                 src={img}
                                 alt="Thumbnail"
-                                className={`w-20 h-20 cursor-pointer rounded-md object-cover border-2 ${selectedImage === img ? "border-[#FFCC00]" : "border-transparent"}`}
+                                className={`w-16 h-14 md:w-20 md:h-16 cursor-pointer rounded-md object-cover border-2 ${selectedImage === img ? "border-[#FFCC00]" : "border-transparent"}`}
                                 onClick={() => setSelectedImage(img)}
                             />
                         ))}
                     </div>
                 </div>
             </div>
-            <div>
-                <p><strong>Location:</strong> {project.location}</p>
-                <p><strong>Type:</strong> {project.type}</p>
-                <p><strong>Year:</strong> {project.year}</p>
-                <p><strong>Length:</strong> {project.length}</p>
-                <p><strong>Client:</strong> {project.client}</p>
-                <p><strong>Scope:</strong> {project.scope}</p>
+            <div className='xl:col-span-2'>
+                <div className="project-detail-display">
+                    <span className="font-semibold">Lokasi Pekerjaan </span><span> : </span><span>{project.location}</span>
+                    <span className="font-semibold">Jenis Pekerjaan </span><span> : </span><span>{project.type}</span>
+                    <span className="font-semibold">Tahun Selesai </span><span> : </span><span>{project.year}</span>
+                    <span className="font-semibold">Durasi Pengerjaan </span><span> : </span><span>{project.time}</span>
+                    <span className="font-semibold">Klien / Pemilik </span><span> : </span><span>{project.client}</span>
+                </div>
+                <Accordion type="single" collapsible className="w-full">
+                    <AccordionItem value="item-1">
+                        <AccordionTrigger>Lingkup Pekerjaan</AccordionTrigger>
+                        <AccordionContent>
+                            <ul className="list-disc list-inside">
+                                {project.scope.map((scopeItem, index) => (
+                                    <li key={index}>{scopeItem}</li>
+                                ))}
+                            </ul>
+                        </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="item-2">
+                        <AccordionTrigger>Detail Proyek</AccordionTrigger>
+                        <AccordionContent>
+                            <ul>
+                                {project.detail.map((detailItem, index) => (
+                                    <li key={index} className='project-detail-display'>
+                                        <span className="font-semibold min-w-[7rem]">{detailItem.year}</span><span> : </span><span>{detailItem.description}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </AccordionContent>
+                    </AccordionItem>
+                </Accordion>
             </div>
         </div>
     )
