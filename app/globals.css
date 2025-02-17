@@ -22,17 +22,22 @@
   /* -----HEADER, NAVBAR & FOOTER----- */
   /* ---Header--- */
   .header-container {
-    @apply h-[50vh] lg:h-[55vh] content-container-noTop;
+    @apply pt-10 pb-12 mx-auto px-8  text-base text-justify
+    md:px-16
+    lg:px-28 lg:pt-12 lg:pb-14
+    2xl:px-32
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }
 
   .header-p-txt {
-    @apply heading tracking-widest mt-16 text-[#FFCC00]
-    lg:mt-6 lg:text-lg;
+    @apply heading tracking-widest  text-[#FFCC00]
+    lg:text-lg;
   }
 
   .header-h1-txt {
-    @apply font-bold text-4xl text-smokyWhite mt-1 mb-4
-    lg:text-5xl lg:mb-6;
+    @apply heading font-semibold text-3xl text-smokyWhite mb-2
+    md:text-4xl
+    lg:text-5xl lg:mb-4;
   }
 
   /* ---Navbar--- */

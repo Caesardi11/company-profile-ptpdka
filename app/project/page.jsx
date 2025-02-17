@@ -21,13 +21,13 @@ export const metadata = {
 const ProjectPage = () => {
     return (
         <div className='bg-[#daa52007]'>
-            <section className='bg-[#a37700]'>
+            <section className='bg-[#b6880a]'>
                 <div className='header-container'>
                     <p className='header-p-txt'>
-                        PROJECT
+                        PROYEK TERBARU
                     </p>
                     <h1 className='header-h1-txt'>
-                        Proyek Kami
+                        Proyek Unggulan Kami
                     </h1>
                     <Breadcrumb>
                         <BreadcrumbList>
@@ -43,12 +43,6 @@ const ProjectPage = () => {
                 </div>
             </section>
             <section className='project-container'>
-                <h3 className='subheading-porto'>
-                    PROYEK TERBARU
-                </h3>
-                <h2 className='heading-porto-text'>
-                    Proyek Unggulan Kami
-                </h2>
                 <ProjectCard />
             </section>
             <Collaboration />

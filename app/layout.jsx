@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="font-primary antialiased">
         <Navbar variant={isHomepage ? "homepage" : ""} />
-        <div className={!isHomepage ? "mt-14 lg:mt-16" : ""}>
+        <div className={!isHomepage ? "mt-14 lg:mt-16 2xl:mt-20" : ""}>
           {children}
         </div>
         <Footer />
