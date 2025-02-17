@@ -21,21 +21,29 @@
 
   /* -----HEADER, NAVBAR & FOOTER----- */
   /* ---Header--- */
+  .header-bg {
+    @apply absolute inset-0 bg-cover bg-center;
+  }
+
+  .header-bg-overlay {
+    @apply absolute inset-0 bg-gradient-to-r from-black to-transparent;
+  }
+
   .header-container {
-    @apply pt-10 pb-12 mx-auto px-8  text-base text-justify
+    @apply relative py-20 mx-auto px-8 text-base text-justify
     md:px-16
-    lg:px-28 lg:pt-12 lg:pb-14
+    lg:px-28 lg:py-24
     2xl:px-32
     max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }
 
   .header-p-txt {
-    @apply heading tracking-widest  text-[#FFCC00]
-    lg:text-lg;
+    @apply heading text-sm tracking-widest  text-[#FFCC00]
+    lg:text-base;
   }
 
   .header-h1-txt {
-    @apply heading font-semibold text-3xl text-smokyWhite mb-2
+    @apply font-semibold text-3xl text-smokyWhite mt-1 mb-2
     md:text-4xl
     lg:text-5xl lg:mb-4;
   }
@@ -329,7 +337,7 @@
   }
 
   .collab-bg-overlay {
-    @apply absolute inset-0 bg-[#634a0b] opacity-85 rounded-2xl;
+    @apply absolute inset-0 bg-black opacity-65 rounded-2xl;
   }
 
   .collab-content {
@@ -419,7 +427,7 @@
   /* -----PROJECT COMPONENT----- */
   /* ---Project Card--- */
   .project-card-display {
-    @apply grid grid-cols-1 gap-10 mt-10
+    @apply grid grid-cols-1 gap-10
     md:grid-cols-2
     xl:grid-cols-3;
   }
@@ -442,7 +450,7 @@
   }
 
   .project-detail-thumbnail-overlay {
-    @apply absolute inset-0 bg-black opacity-40;
+    @apply absolute inset-0 bg-gradient-to-t from-black via-black/5 to-transparent;
   }
 
   .project-detail-title {
@@ -462,7 +470,7 @@
 
   /* -----PROJECT CONTAINER----- */
   .project-container {
-    @apply pt-12 mb-10 mx-auto px-8 text-base text-justify
+    @apply my-10 mx-auto px-8 text-base text-justify
     md:px-16
     lg:px-28
     2xl:px-32

@@ -21,7 +21,10 @@ export const metadata = {
 const ProjectPage = () => {
     return (
         <div className='bg-[#daa52007]'>
-            <section className='bg-[#b6880a]'>
+            <section className='relative'>
+                <div className='header-bg' style={{ backgroundImage: "url('/project-bg.png')" }}>
+                    <div className='header-bg-overlay'></div>
+                </div>
                 <div className='header-container'>
                     <p className='header-p-txt'>
                         PROYEK TERBARU
