@@ -17,7 +17,7 @@ const Stats = () => {
                 <div
                     className="stats-bg-img"
                     style={{
-                        backgroundImage: `url('/pattern.jpg')`,
+                        backgroundImage: `url('/pattern.webp')`,
                     }}
                 ></div>
                 <div className="stats-bg-img-overlay"></div>

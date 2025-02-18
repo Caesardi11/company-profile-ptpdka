@@ -7,20 +7,21 @@ import {
     BreadcrumbPage,
     BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb'
+import Image from 'next/image'
 
 export const metadata = {
     title: 'Profil Perusahaan - pancadutakaryaabadi.com',
     description: 'Lihat proyek terbaru dan unggulan kami di halaman ini.',
     icons: {
-        icon: '/logo-pdka.png',
+        icon: '/logo-pdka.webp',
     },
 }
 
 const ProfilePage = () => {
 return (
-    <div>
+    <div className='bg-white'>
         <section className='relative'>
-            <div className='header-bg' style={{ backgroundImage: "url('/kantor-pdka.png')" }}>
+            <div className='header-bg' style={{ backgroundImage: "url('/kantor-pdka.webp')" }}>
                 <div className='header-bg-overlay'></div>
             </div>
             <div className='header-container'>
@@ -44,6 +45,7 @@ return (
             </div>
         </section>
         <section className='project-container'>
+            <Image src='/map-kantor.webp' alt='kantor-pdka' layout='responsive' width={500} height={500} />
             hsvgdjbhvajgvjad
         </section>
     </div>

@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='footer-content'>
           <div className='border-b-2 border-gray-700'>
             <a href="/" className='left-content-link'>
-              <Image src="/icon-navbar-2.png" alt="Logo PDKA" width={250} height={200}/>
+              <Image src="/icon-navbar-2.webp" alt="Logo PDKA" width={800} height={200}/>
             </a>
           </div>
           <div className='border-b-2 border-gray-700 center-container'>

@@ -6,7 +6,7 @@ const Collaboration = () => {
         <section className='p-10 lg:p-16'>
             <div className='collab-container'>
                 <Image
-                    src="/kantor-pdka.png"
+                    src="/kantor-pdka.webp"
                     alt="Background Image"
                     className="collab-bg"
                     layout="fill"

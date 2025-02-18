@@ -2,6 +2,7 @@ import React from 'react';
 import projects from '@/data/projects.json';
 import ProjectDetailCard from '@/components/ProjectDetailCard';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 const getProjectByPath = (projectPath) => {
@@ -19,7 +20,7 @@ export async function generateMetadata({ params }) {
         title: `${project.name} - pancadutakaryaabadi.com`,
         description: `Proyek ${project.name} berada di ${project.location}. Proyek tersebut berada dibawah ${project.client} dan selesai pada Tahun ${project.year}. Lihat detailnya di sini.`,
         icons: {
-            icon: '/logo-pdka.png',
+            icon: '/logo-pdka.webp',
         },
     };
 }
@@ -36,7 +37,7 @@ export default async function ProjectDetails({ params }) {
     return (
         <div>
             <section className='project-detail-thumbnail-container'>
-                <img src={project.thumbnail} alt={project.name} className='project-detail-thumbnail' />
+                <Image src={project.thumbnail} alt={project.name} className='project-detail-thumbnail' width={1920} height={1080} />
                 <div className='project-detail-thumbnail-overlay'></div>
             </section>
             <section className='project-detail-container'>

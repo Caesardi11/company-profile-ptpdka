@@ -36,12 +36,12 @@ const Navbar = ({ variant }) => {
                     <Image
                         src={
                             variant === "homepage" && !isScrolled
-                                ? "/icon-navbar-2.png"
-                                : "/icon-navbar.png"
+                                ? "/icon-navbar-2.webp"
+                                : "/icon-navbar.webp"
                         }
                         alt="Logo PT.PDKA"
                         className="navbar-icon"
-                        width={500}
+                        width={800}
                         height={200}
                     />
                 </Link>

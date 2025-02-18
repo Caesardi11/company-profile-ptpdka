@@ -14,7 +14,7 @@ export const metadata = {
     title: 'Proyek Kami - pancadutakaryaabadi.com',
     description: 'Lihat proyek terbaru dan unggulan kami di halaman ini.',
     icons: {
-        icon: '/logo-pdka.png',
+        icon: '/logo-pdka.webp',
     },
 }
 
@@ -22,7 +22,7 @@ const ProjectPage = () => {
     return (
         <div className='bg-[#daa52007]'>
             <section className='relative'>
-                <div className='header-bg' style={{ backgroundImage: "url('/project-bg.png')" }}>
+                <div className='header-bg' style={{ backgroundImage: "url('/project-bg.webp')" }}>
                     <div className='header-bg-overlay'></div>
                 </div>
                 <div className='header-container'>

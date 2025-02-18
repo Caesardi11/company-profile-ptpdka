@@ -9,20 +9,20 @@ import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
 const icons = [
-  "/partner/logo-pupr.png",
-  "/partner/logo-dephub.png",
-  "/partner/logo-kemkes.png",
-  "/partner/logo-kemenpora.png",
-  "/partner/logo-papua-barat.png",
-  "/partner/logo-papua.png",
-  "/partner/logo-kota-sorong.png",
-  "/partner/logo-kab-sorong.png",
-  "/partner/logo-kab-sorsel.png",
-  "/partner/logo-kab-manokwari.png",
-  "/partner/logo-kab-mansel.png",
-  "/partner/logo-kota-jayapura.png",
-  "/partner/logo-kab-jayapura.png",
-  "/partner/logo-kab-mimika.png",
+  "/partner/logo-pupr.webp",
+  "/partner/logo-dephub.webp",
+  "/partner/logo-kemkes.webp",
+  "/partner/logo-kemenpora.webp",
+  "/partner/logo-papua-barat.webp",
+  "/partner/logo-papua.webp",
+  "/partner/logo-kota-sorong.webp",
+  "/partner/logo-kab-sorong.webp",
+  "/partner/logo-kab-sorsel.webp",
+  "/partner/logo-kab-manokwari.webp",
+  "/partner/logo-kab-mansel.webp",
+  "/partner/logo-kota-jayapura.webp",
+  "/partner/logo-kab-jayapura.webp",
+  "/partner/logo-kab-mimika.webp",
 ]
 
 const ClientCarousel = () => {
@@ -41,8 +41,8 @@ const ClientCarousel = () => {
                                 src={src} 
                                 alt={`Client Logo ${index + 1}`} 
                                 className='w-full h-1/2 object-contain'
-                                width={200}
-                                height={200}
+                                width={250}
+                                height={250}
                             />
                         </CarouselItem>
                     ))}
