@@ -35,7 +35,7 @@ export default function Home() {
                             <b>PT. Panca Duta Karya Abadi</b> adalah Perusahaan Jasa Konstruksi dan Jasa Pengadaan barang / jasa yang senantiasa mengembangkan dan menerapkan <b>Sistem Manajemen Mutu</b> dengan tujuan untuk meningkatkan kinerja perusahaan guna memberikan / meningkatkan kepuasan bagi para pelanggan / owner dengan cara memenuhi persyaratan yang telah ditetapkan.
                         </p>
                         <div className="text-button">
-                            <Link href="/about">Kenali Kami →</Link>
+                            <Link href="/company-profile">Kenali Kami →</Link>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,6 +8,7 @@ import Image from "next/image";
 const Navbar = ({ variant }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+    const pathname = usePathname();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -19,6 +21,8 @@ const Navbar = ({ variant }) => {
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
+
+    const isActive = (path) => pathname === path;
 
     return (
         <nav
@@ -67,16 +71,16 @@ const Navbar = ({ variant }) => {
                             : "text-black"
                     )}
                 >
-                    <Link href="/" className="navbar-font">
+                    <Link href="/" className={cn("navbar-font", isActive("/") && "navbar-font")}>
                         Beranda
                     </Link>
-                    <Link href="/project" className="navbar-font">
+                    <Link href="/project" className={cn("navbar-font", isActive("/project") && "text-[#FFCC00]")}>
                         Proyek Kami
                     </Link>
-                    <Link href="/company-profile" className="navbar-font">
+                    <Link href="/company-profile" className={cn("navbar-font", isActive("/company-profile") && "text-[#FFCC00]")}>
                         Profil Perusahaan
                     </Link>
-                    <Link href="/contact-us" className="navbar-font">
+                    <Link href="/contact-us" className={cn("navbar-font", isActive("/contact-us") && "text-[#FFCC00]")}>
                         Kontak
                     </Link>
                 </div>

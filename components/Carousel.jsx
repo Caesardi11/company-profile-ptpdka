@@ -5,11 +5,11 @@ import { RxDividerVertical } from "react-icons/rx";
 import { BsWhatsapp } from "react-icons/bs";
 
 const images = [
-    "/project/project-10.png",
-    "/project/project-15.png",
-    "/project/project-5.png",
-    "/project/project-13.png",
-    "/project/project-4.png",
+    "/project/project-10.webp",
+    "/project/project-15.webp",
+    "/project/project-5.webp",
+    "/project/project-13.webp",
+    "/project/project-4.webp",
 ];
 
 const Carousel = () => {

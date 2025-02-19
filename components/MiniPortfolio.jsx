@@ -5,12 +5,12 @@ import 'aos/dist/aos.css';
 import Image from 'next/image';
 
 const images = [
-    "/project/project-15.png",
-    "/project/project-14-3.png",
-    "/project/project-9.png",
-    "/project/project-4.png",
-    "/project/project-13.png",
-    "/project/project-5.png",
+    "/project/project-15.webp",
+    "/project/project-14-3.webp",
+    "/project/project-9.webp",
+    "/project/project-4.webp",
+    "/project/project-13.webp",
+    "/project/project-5.webp",
 ];
 
 const projectNames = [

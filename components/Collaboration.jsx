@@ -14,7 +14,7 @@ const Collaboration = () => {
                 />
                 <div className="collab-bg-overlay"></div>
                 <div className="collab-content">
-                    <Image src="/logo-pdka.png" alt="Logo" className="mb-3 lg:mb-6" width={50} height={50} />
+                    <Image src="/logo-pdka.webp" alt="Logo" className="mb-3 lg:mb-6" width={50} height={50} />
                     <h1 className="collab-heading">Engineering <span className='text-[#ffc800]'>Bureau</span> & General <span className='text-[#ffc800]'>Contractor</span></h1>
                     <p className="collab-subheading">
                         Hubungi kami dan mulailah perjalanan Anda dalam mewujudkan proyek impian berkualitas tinggi bersama tim ahli kami.

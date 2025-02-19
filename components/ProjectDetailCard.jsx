@@ -22,7 +22,7 @@ const ProjectDetailCard = ({ project }) => {
                         alt={project.name}
                         className="w-full h-full object-cover rounded-md"
                         width={800}
-                        height={500}
+                        height={600}
                     />
                     <div className="flex gap-3 mt-4">
                         {project.img.map((img, index) => (
@@ -32,8 +32,8 @@ const ProjectDetailCard = ({ project }) => {
                                 alt="Thumbnail"
                                 className={`w-16 h-14 md:w-20 md:h-16 cursor-pointer rounded-md object-cover border-2 ${selectedImage === img ? "border-[#FFCC00]" : "border-transparent"}`}
                                 onClick={() => setSelectedImage(img)}
-                                width={100}
-                                height={100}
+                                width={300}
+                                height={300}
                             />
                         ))}
                     </div>
