@@ -45,14 +45,17 @@ return (
             </div>
         </section>
         <section className='project-container'>
-            <div className='grid grid-cols-2 gap-10 mt-20'>
+            <div className='grid xl:grid-cols-2 gap-10 xl:mt-20'>
                 <Image src='/foto-karyawan.webp' alt='karyawan-pdka' layout='responsive' width={800} height={1080} />
                 <div className='indent-10 leading-relaxed'>
-                    <p className='mb-4'>
-                        <b>PT. PANCA DUTA KARYA ABADI</b> didirikan di <b>Rembang, Jawa Tengah,</b> pada <b>Sabtu, 21 Mei 1983,</b> berdasarkan <b>Akte Notaris No. 66</b> yang dikeluarkan oleh <b>Imam Sutaryo, S.H.</b> di Pati, Jawa Tengah. Seiring dengan perkembangannya, perusahaan mengalami beberapa kali perubahan, termasuk pemindahan kantor pusat ke <b>Jayapura</b>.
+                    <p className='mb-4 text-sm leading-relaxed'>
+                        <b>PT. PANCA DUTA KARYA ABADI</b> didirikan di kota Rembang, Jawa Tengah pada hari Sabtu, 21 Mei 1983 dengan Akte Notaris No.66 yang dikeluarkan Imam Sutaryo SH di Pati, Jawa Tengah, dan telah mengalami beberapa kali perubahan, dan kemudian Kantor Pusat PT. PANCA DUTA KARYA ABADI dipindah ke Jayapura; dan terakhir untuk menyesuaikan dengan peraturan pemerintah dengan diharuskannya sistem <b>Online Single Submission (OSS),</b> selanjutnya PT. PANCA DUTA KARYA ABADI telah menyesuaikan Maksud dan Tujuan Kegiatan Usaha dengan tabel KBLI yaitu dengan Akte terakhir yang dikeluarkan oleh Notaris Rera Farah, SH.,M.Kn. dengan <b>NIB 9120204121006.</b>
                     </p>
                     <p className='mb-4'>
-                        Dalam rangka menyesuaikan dengan regulasi pemerintah mengenai sistem Online Single Submission (OSS), PT. PANCA DUTA KARYA ABADI telah menyesuaikan maksud dan tujuan kegiatan usahanya sesuai dengan tabel KBLI, sebagaimana tercantum dalam Akte terakhir yang dikeluarkan oleh Notaris Rera Farah, S.H., M.Kn., dengan <b>NIB 9120204121006</b>.
+                        Disamping Perusahaan Jasa Konstruksi yang meliputi pekerjaan bangunan, perumahan dan pemukiman, gedung dan pabrik, jalan, jembatan, landasan bandara, lokasi pengeboran darat, pencetakan sawah dan pembukaan lahan, bendungan, reklamasi dan pengerukan, pelabuhan, dermaga penahan gelombang dan tanah, <b>PT. PANCA DUTA KARYA ABADI</b> juga merupakan perusahaan yang bergerak dalam bidang usaha perdagangan, ekspor, impor, leveransir, distributor, ekspedisi, serta segala sesuatu yang berhubungan langsung maupun tidak langsung dalam bidang industri, peternakan, perkebunan dan perbengkelan.
+                    </p>
+                    <p className='mb-4'>
+                        Dalam perkembangan selanjutnya, Kantor Pusat <b>PT. PANCA DUTA KARYA ABADI</b> dipindahkan ke Jayapura dan sekarang memiliki beberapa cabang, antara lain di Sorong, Manokwari, Timika dan Surabaya.
                     </p>
                 </div>
             </div>
