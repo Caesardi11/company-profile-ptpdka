@@ -57,8 +57,8 @@ const MiniPortfolio = () => {
                                 src={src} 
                                 alt={`Portfolio Image ${index + 1}`} 
                                 className='w-full h-48 md:h-64 2xl:h-80 object-cover rounded-lg'
-                                width={700}
-                                height={400}
+                                width={400}
+                                height={300}
                             />
                             <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center rounded-lg transition-opacity duration-300">
                                 <span className="text-white text-center text-lg p-5 pointer-events-none">{projectNames[index]}</span>

@@ -322,7 +322,7 @@
   .heading-client {
     @apply heading font-semibold text-[#DAA520] text-2xl text-center tracking-wider
     md:text-3xl
-    lg:text-4xl
+    lg:text-4xl;
   }
 
   .subheading-client {
@@ -408,7 +408,8 @@
   }
 
   .indent-text {
-    @apply mt-7 indent-8
+    @apply mt-7 indent-8 text-sm leading-relaxed
+    md:text-base
     lg:mt-0;
   }
 

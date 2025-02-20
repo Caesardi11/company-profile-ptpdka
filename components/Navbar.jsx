@@ -74,13 +74,13 @@ const Navbar = ({ variant }) => {
                     <Link href="/" className={cn("navbar-font", isActive("/") && "navbar-font")}>
                         Beranda
                     </Link>
-                    <Link href="/project" className={cn("navbar-font", isActive("/project") && "text-[#FFCC00]")}>
+                    <Link href="/project" className={cn("navbar-font", isActive("/project") && "text-[#DAA520]")}>
                         Proyek Kami
                     </Link>
-                    <Link href="/company-profile" className={cn("navbar-font", isActive("/company-profile") && "text-[#FFCC00]")}>
+                    <Link href="/company-profile" className={cn("navbar-font", isActive("/company-profile") && "text-[#DAA520]")}>
                         Profil Perusahaan
                     </Link>
-                    <Link href="/contact-us" className={cn("navbar-font", isActive("/contact-us") && "text-[#FFCC00]")}>
+                    <Link href="/contact-us" className={cn("navbar-font", isActive("/contact-us") && "text-[#DAA520]")}>
                         Kontak
                     </Link>
                 </div>

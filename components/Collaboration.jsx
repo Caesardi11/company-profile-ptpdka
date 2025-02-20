@@ -9,8 +9,8 @@ const Collaboration = () => {
                     src="/kantor-pdka.webp"
                     alt="Background Image"
                     className="collab-bg"
-                    layout="fill"
-                    objectFit="cover"
+                    width={800}
+                    height={600}
                 />
                 <div className="collab-bg-overlay"></div>
                 <div className="collab-content">
