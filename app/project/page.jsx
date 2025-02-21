@@ -1,5 +1,5 @@
 import React from 'react'
-import Collaboration from '@/components/Collaboration'
+import Collaboration from '@/components/main/Collaboration'
 import {
     Breadcrumb,
     BreadcrumbList,
@@ -8,7 +8,7 @@ import {
     BreadcrumbPage,
     BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb'
-import ProjectCard from '@/components/ProjectCard'
+import ProjectCard from '@/components/project/ProjectCard'
 
 export const metadata = {
     title: 'Proyek Kami - pancadutakaryaabadi.com',

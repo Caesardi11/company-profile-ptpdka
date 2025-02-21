@@ -1,8 +1,8 @@
-import Carousel from "@/components/Carousel";
-import ClientCarousel from "@/components/ClientCarousel";
-import Collaboration from "@/components/Collaboration";
-import MiniPortfolio from "@/components/MiniPortfolio";
-import Stats from "@/components/Stats";
+import Carousel from "@/components/main/Carousel";
+import ClientCarousel from "@/components/main/ClientCarousel";
+import Collaboration from "@/components/main/Collaboration";
+import MiniPortfolio from "@/components/main/MiniPortfolio";
+import Stats from "@/components/main/Stats";
 import Link from "next/link";
 
 export const metadata = {

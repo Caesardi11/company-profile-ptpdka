@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/breadcrumb'
 import Image from 'next/image'
 import { FaLocationDot } from "react-icons/fa6";
-import MiniPortfolio from '@/components/MiniPortfolio';
+import MiniPortfolio from '@/components/main/MiniPortfolio';
 
 export const metadata = {
     title: 'Profil Perusahaan - pancadutakaryaabadi.com',
@@ -46,7 +46,7 @@ const ProfilePage = () => {
                     </Breadcrumb>
                 </div>
             </section>
-            <section className='grid gap-10 my-10 mx-auto px-8 text-justify md:px-16 lg:px-28 xl:grid-cols-2 xl:mt-16 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
+            <section className='grid gap-10 my-5 mx-auto px-8 text-justify md:px-16 lg:px-28 xl:grid-cols-2 xl:mt-16 xl:my-10 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
                 <div className='flex justify-center'>
                     <Image src='/foto-karyawan.webp' alt='karyawan-pdka' className='w-full lg:w-3/4 xl:w-full' width={965} height={1240} />
                 </div>
@@ -60,29 +60,44 @@ const ProfilePage = () => {
                     </p>
                 </div>
             </section>
-            <section className='bg-gray-100 py-10'>
-                <div className='mx-auto px-8 md:px-16 lg:px-28 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
-                    <h1 className='heading font-semibold text-[#DAA520] text-3xl text-center tracking-wider mb-5 md:text-4xl'>Visi & Misi</h1>
-                    <div className='grid gap-16 text-justify md:grid-cols-2'>
-                        <div>
-                            <h2 className='text-2xl font-semibold text-[#DAA520] mb-4'>Visi</h2>
-                            <p className='text-sm leading-relaxed md:text-base 2xl:text-lg'>
-                                <b>PT. PANCA DUTA KARYA ABADI</b> berkembang dengan cara memenuhi seluruh komitmen pelanggan.
-                            </p>
-                        </div>
-                        <div>
-                            <h2 className='text-2xl font-semibold text-[#DAA520] mb-4'>Misi</h2>
-                            <ul className='list-disc ml-5 text-sm md:text-base 2xl:text-lg'>
-                                <li><b>PT. PANCA DUTA KARYA ABADI</b> menciptakan hasil karya yang berkualitas, orientasi  pelanggan, penempatan personel yang profesional, melaksanakan aktifitas secara aman dan menjaga kelastarian lingkungan.</li>
-                                <br />
-                                <li><b>PT. PANCA DUTA KARYA ABADI</b> dalam menjamin kesesuaian hasil produksi jasa konstruksi  dan pengadaan yang sesuai dengan persyaratan yang telah ditetapkan oleh pelanggan, maka dalam membuat dan menetapkan perencanaan akan berorientasi pada hasil produksi yang disesuaikan  dengan rencana optimalisasi kepuasan pelanggan.</li>
-                            </ul>
-                        </div>
+            <section className='bg-[#121212] text-[#F5F5F5] py-14'>
+                <div className="max-w-5xl mx-auto px-8 ">
+                    {/* Bagian Visi */}
+                    <div className="backdrop-blur-lg bg-white/10 border border-white/20 p-8 rounded-lg shadow-lg flex flex-col justify-between items-center md:gap-10 md:px-16 md:flex-row lg:gap-16 xl:gap-20">
+                        <h2 className="text-4xl text-[#FFCC00] font-bold mb-2 md:mb-0">VISI</h2>
+                        <div className="hidden mx-4 md:block md:h-24 md:border-l md:border-gray-500"></div>
+                        <p className="text-base leading-relaxed text-center  md:text-left">
+                            PT. PANCA DUTA KARYA ABADI berkembang dengan cara memenuhi seluruh komitmen pelanggan.
+                        </p>
+                    </div>
+
+                    {/* Garis Pemisah */}
+                    <div className="my-8 flex items-center">
+                        <div className="flex-grow border-t border-[#FFCC00]"></div>
+                        <h3 className="mx-4 text-3xl font-semibold text-[#FFCC00]">VISI & MISI</h3>
+                        <div className="flex-grow border-t border-[#FFCC00]"></div>
+                    </div>
+
+                    {/* Bagian Misi */}
+                    <div className="backdrop-blur-lg bg-white/10 border border-white/20 p-8 rounded-lg shadow-lg flex flex-col justify-between items-center md:gap-10 md:px-16 md:flex-row lg:gap-16 xl:gap-20">
+                        <ul className='list-disc space-y-4 text-justify'>
+                            <li>
+                                PT. PANCA DUTA KARYA ABADI menciptakan hasil karya yang berkualitas, orientasi pelanggan, 
+                                penempatan personel yang profesional, melaksanakan aktivitas secara aman, dan menjaga kelestarian lingkungan.
+                            </li>
+                            <li>
+                                PT. PANCA DUTA KARYA ABADI dalam menjamin kesesuaian hasil produksi jasa konstruksi dan pengadaan yang sesuai dengan 
+                                persyaratan pelanggan, maka dalam membuat dan menetapkan perencanaan akan berorientasi pada hasil produksi 
+                                yang disesuaikan dengan rencana optimalisasi kepuasan pelanggan.
+                            </li>
+                        </ul>
+                        <div className="hidden mx-4 md:block md:h-56 md:border-l md:border-gray-500"></div>
+                        <h2 className="text-4xl font-bold self-center mt-6 text-[#FFCC00] md:mt-0">MISI</h2>
                     </div>
                 </div>
             </section>
-            <div className='bg-white'>
-                <section className='mx-auto px-8 py-10 md:pt-12 md:px-16 lg:px-28 lg:pt-14 xl:pt-16 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
+            <section className='bg-white'>
+                <div className='mx-auto px-8 py-10 md:pt-12 md:px-16 lg:px-28 lg:pt-14 xl:pt-16 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
                     <h1 className='heading font-semibold text-[#DAA520] text-3xl text-center tracking-wider mb-5 lg:text-4xl'>Lokasi</h1>
                     <p className='text-sm leading-relaxed mb-4 md:text-center md:mx-14 md:text-base lg:mx-20 lg:mb-9 xl:mx-36'>
                         Dalam perkembangan selanjutnya, Kantor Pusat <b>PT. PANCA DUTA KARYA ABADI</b> dipindahkan ke Jayapura dan sekarang memiliki beberapa cabang, antara lain di Sorong, Manokwari, Timika dan Surabaya.
@@ -151,8 +166,8 @@ const ProfilePage = () => {
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
             <MiniPortfolio />
         </>
     )

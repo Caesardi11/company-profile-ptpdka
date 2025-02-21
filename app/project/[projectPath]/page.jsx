@@ -1,6 +1,6 @@
 import React from 'react';
 import projects from '@/data/projects.json';
-import ProjectDetailCard from '@/components/ProjectDetailCard';
+import ProjectDetailCard from '@/components/project/ProjectDetailCard';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
