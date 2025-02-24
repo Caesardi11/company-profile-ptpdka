@@ -22,7 +22,7 @@
   /* -----HEADER, NAVBAR & FOOTER----- */
   /* ---Header--- */
   .header-bg {
-    @apply absolute inset-0 bg-cover bg-center;
+    @apply absolute inset-0 w-full h-full bg-cover bg-center;
   }
 
   .header-bg-overlay {
@@ -431,8 +431,15 @@
   }
 
   /* -------PROJECT------- */
-  /* -----PROJECT COMPONENT----- */
   /* ---Project Card--- */
+  .project-container {
+    @apply my-10 mx-auto px-8 text-base text-justify
+    md:px-16
+    lg:px-28
+    2xl:px-32
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+  }
+
   .project-card-display {
     @apply grid grid-cols-1 gap-10
     md:grid-cols-2
@@ -446,6 +453,14 @@
   }
 
   /* ---Project Detail Card--- */
+  .project-detail-container {
+    @apply pt-10 mb-10 mx-auto px-8 text-base text-justify
+    md:px-16 md:pt-3
+    lg:px-28 lg:pt-10
+    2xl:px-32
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+  }
+
   .project-detail-thumbnail-container {
     @apply h-[65vh] mx-auto relative
     md:h-[75vh]
@@ -475,20 +490,122 @@
     xl:gap-10 xl:grid-cols-5;
   }
 
-  /* -----PROJECT CONTAINER----- */
-  .project-container {
-    @apply my-10 mx-auto px-8 text-base text-justify
+  /* -------COMPANY PROFILE------- */
+  /* -----HISTORY----- */
+  .history-container {
+    @apply grid gap-10 my-5 mx-auto px-8 text-justify
     md:px-16
     lg:px-28
+    xl:grid-cols-2 xl:mt-16 xl:my-10
     2xl:px-32
     max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }
 
-  .project-detail-container {
-    @apply pt-10 mb-10 mx-auto px-8 text-base text-justify
-    md:px-16 md:pt-3
-    lg:px-28 lg:pt-10
-    2xl:px-32
+  .history-heading {
+    @apply heading font-semibold text-[#DAA520] text-3xl tracking-wider mb-7
+    md:text-3xl
+    lg:text-4xl;
+  }
+
+  .history-text {
+    @apply mb-4 text-sm leading-relaxed indent-10
+    md:text-base;
+  }
+
+  /* -----VISION AND MISSION----- */
+  .vision-mission-container {
+    @apply backdrop-blur-lg bg-white/10 border border-white/20 p-8 rounded-lg shadow-lg flex flex-col justify-between items-center
+    md:gap-10 md:px-16 md:flex-row
+    lg:gap-16
+    xl:gap-20;
+  }
+
+  .vision-mission-divider {
+    @apply hidden mx-4
+    md:block md:border-l md:border-gray-500;
+  }
+
+  .vision-heading {
+    @apply text-4xl text-[#FFCC00] font-bold mb-2
+    md:mb-0;
+  }
+
+  .vision-text {
+    @apply text-base leading-relaxed text-center
+    md:text-left;
+  }
+
+  .mission-text {
+    @apply text-4xl font-bold self-center mt-6 text-[#FFCC00]
+    md:mt-0;
+  }
+
+  /* -----LOCATION----- */
+  .location-display {
+    @apply mx-auto px-8 py-10
+    md:pt-12 md:px-16
+    lg:px-28 lg:pt-14
+    xl:pt-16 2xl:px-32
     max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
   }
+
+  .location-heading {
+    @apply heading font-semibold text-[#DAA520] text-3xl text-center tracking-wider mb-5
+    lg:text-4xl;
+  }
+
+  .location-subheading {
+    @apply text-sm leading-relaxed mb-4
+    md:text-center md:mx-14 md:text-base
+    lg:mx-20 lg:mb-9
+    xl:mx-36;
+  }
+
+  .location-content-display {
+    @apply grid grid-cols-2 text-start mt-5
+    md:gap-5 md:grid-cols-3
+    xl:ml-12 xl:gap-20;
+  }
+
+  .location-1-display {
+    @apply grid col-span-2
+    md:col-span-1;
+  }
+
+  .location-2-display {
+    @apply grid grid-cols-2 col-span-2
+    md:gap-5
+    xl:gap-10;
+  }
+
+  .location-content {
+    @apply flex flex-row gap-2 mb-5;
+  }
+
+  .location-1-icon {
+    @apply mt-1 text-[#FFCC00];
+  }
+
+  .location-2-icon {
+    @apply mt-1 text-[#DAA520];
+  }
+
+  .location-1-heading {
+    @apply text-[#FFCC00] font-semibold text-base tracking-wide heading;
+  }
+
+  .location-2-heading {
+    @apply text-[#DAA520] font-semibold text-base tracking-wide heading;
+  }
+
+  .location-1-subheading {
+    @apply mt-1 text-sm text-gray-400;
+  }
+
+  .location-2-subheading {
+    @apply mt-1 text-sm text-gray-400;
+  }
+
+  /* -----SERTIFICATION----- */
+  
 }
