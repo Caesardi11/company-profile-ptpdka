@@ -28,9 +28,9 @@ const ProjectCard = () => {
             </CardTitle>
             <CardDescription>
               <div className="project-card-description-display">
-                <span className="font-semibold">Lokasi </span><span> :</span><span>{project.location}</span>
-                <span className="font-semibold">Jenis </span><span> :</span><span>{project.type}</span>
-                <span className="font-semibold">Tahun Selesai </span><span> :</span><span>{project.year}</span>
+                <span className="font-semibold">Lokasi </span><span> : </span><span>{project.location}</span>
+                <span className="font-semibold">Jenis </span><span> : </span><span>{project.type}</span>
+                <span className="font-semibold">Tahun Selesai </span><span> : </span><span>{project.year}</span>
               </div>
             </CardDescription>
           </CardContent>
