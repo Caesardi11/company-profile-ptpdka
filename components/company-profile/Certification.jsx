@@ -4,7 +4,6 @@ import {
     Dialog,
     DialogContent,
     DialogDescription,
-    DialogHeader,
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog";
@@ -44,19 +43,19 @@ const Certification = () => {
     ];
 
     return (
-        <section className="relative text-smokyWhite bg-cover bg-center" style={{ backgroundImage: "url('/bg-certif.webp')" }}>
-            <div className="absolute inset-0 bg-[#121212]/65"></div>
-            <div className='relative mx-auto px-8 py-12 md:pt-12 md:px-16 lg:px-28 lg:pt-14 xl:pt-16 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
-                <div className="max-w-6xl text-center">
-                    <h2 className="text-4xl font-bold text-[#FFCC00] mb-3">Sertifikasi Kami</h2>
-                    <p className="text-base text-gray-200 mb-12">
+        <section className="certif-bg" style={{ backgroundImage: "url('/bg-certif.webp')" }}>
+            <div className="certif-bg-overlay"></div>
+            <div className='certif-display'>
+                <div className="certif-txt-container">
+                    <h2 className="certif-heading">Sertifikasi Kami</h2>
+                    <p className="certif-subheading">
                         Kami telah mendapatkan berbagai sertifikasi sebagai bukti kredibilitas dan kualitas layanan kami.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11 items-start justify-center">
+                <div className="certif-card-container">
                     {certifications.map((certification, index) => (
-                        <div key={index} className="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-lg shadow-lg ">
+                        <div key={index} className="certif-card-bg">
                             <Dialog>
                                 <DialogTrigger className='flex justify-center'>
                                     <Image 
@@ -67,7 +66,7 @@ const Certification = () => {
                                         className={`rounded-lg border-2 border-[#FFCC00] shadow-md hover:scale-105 transition-transform duration-150 ${certification.title === "BPJS Ketenagakerjaan" ? 'w-full' : 'w-3/4 md:w-full'}`}
                                     />
                                 </DialogTrigger>
-                                <DialogContent className="flex flex-col items-center gap-5 md:flex-row md:max-w-2xl md:gap-8">
+                                <DialogContent>
                                     <Image
                                         src={certification.src}
                                         alt={`Sertifikat ${certification.title}`}

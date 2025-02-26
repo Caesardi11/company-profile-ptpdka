@@ -606,6 +606,43 @@
     @apply mt-1 text-sm text-gray-400;
   }
 
-  /* -----SERTIFICATION----- */
-  
+  /* -----CERTIFICATION----- */
+  .certif-bg {
+    @apply relative text-smokyWhite bg-cover bg-center;
+  }
+
+  .certif-bg-overlay {
+    @apply absolute inset-0 bg-[#121212]/65;
+  }
+
+  .certif-display {
+    @apply relative mx-auto px-8 py-12
+    md:pt-12 md:px-16
+    lg:px-28 lg:pt-14
+    xl:pt-16
+    2xl:px-32
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+  }
+
+  .certif-txt-container {
+    @apply max-w-6xl text-center;
+  }
+
+  .certif-heading {
+    @apply text-4xl font-bold text-[#FFCC00] mb-3;
+  }
+
+  .certif-subheading {
+    @apply text-base text-gray-200 mb-12;
+  }
+
+  .certif-card-container {
+    @apply grid grid-cols-1 gap-11 items-start justify-center
+    md:grid-cols-2
+    lg:grid-cols-3;
+  }
+
+  .certif-card-bg {
+    @apply bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-lg shadow-lg;
+  }
 }
