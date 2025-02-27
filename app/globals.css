@@ -645,4 +645,7 @@
   .certif-card-bg {
     @apply bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-lg shadow-lg;
   }
+
+  /* -------CONTACT-US------- */
+  /* ----- */
 }

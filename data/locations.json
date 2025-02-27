@@ -1,0 +1,42 @@
+[
+    {
+        "title": "KANTOR PUSAT JAYAPURA",
+        "address": "Jl. Ardipura, No. 56 A, <br /> Ardipura, Mandala, Jayapura Utara, <br /> Kota Jayapura, Papua 99222",
+        "phone": "+62967-537 776",
+        "iconClass": "center-icon-main",
+        "titleClass": "center-h3-main",
+        "addressClass": "mt-1 text-xs text-gray-400"
+    },
+    {
+        "title": "KANTOR CABANG SORONG",
+        "address": "Jl. A. Yani, Klademak III C, <br /> Klademak, Sorong Manoi, <br /> Kota Sorong, Papua Barat Daya 98414",
+        "phone": "+62951-325 904",
+        "iconClass": "center-icon-submain",
+        "titleClass": "center-h3-submain",
+        "addressClass": "center-p"
+    },
+    {
+        "title": "KANTOR CABANG MANOKWARI",
+        "address": "Jl. Drs Esau Sesa (Samping Hotel Papua Forest), <br /> Wosi, Manokwari Barat <br /> Kabupaten Manokwari, Papua Barat 98312",
+        "phone": "+62986-215 307 / 215 308",
+        "iconClass": "center-icon-submain",
+        "titleClass": "center-h3-submain",
+        "addressClass": "center-p"
+    },
+    {
+        "title": "KANTOR CABANG SURABAYA",
+        "address": "Jl. Merak No.4 - 6, <br /> Krembangan Selatan, Krembangan, <br /> Surabaya, Jawa Timur 60175",
+        "phone": "+6231-355 2121",
+        "iconClass": "center-icon-submain",
+        "titleClass": "center-h3-submain",
+        "addressClass": "center-p"
+    },
+    {
+        "title": "KANTOR CABANG TIMIKA",
+        "address": "Jl. Caritas SP 2 - SP 5, <br /> Timika Jaya, Mimika Baru, <br /> Kabupaten Mimika, Papua 99963",
+        "phone": "",
+        "iconClass": "center-icon-submain",
+        "titleClass": "center-h3-submain",
+        "addressClass": "center-p"
+    }
+]

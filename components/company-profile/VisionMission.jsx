@@ -7,7 +7,7 @@ const VisionMission = () => {
             <div className="relative max-w-5xl mx-auto px-8">
                 {/* Bagian Visi */}
                 <div className="vision-mission-container">
-                    <h2 className="vision-heading">VISI</h2>
+                    <h3 className="vision-heading">VISI</h3>
                     <div className="vision-mission-divider md:h-24"></div>
                     <p className="vision-text">
                         <b>PT. PANCA DUTA KARYA ABADI</b> berkembang dengan cara memenuhi seluruh komitmen pelanggan.
@@ -17,7 +17,7 @@ const VisionMission = () => {
                 {/* Garis Pemisah */}
                 <div className=" relative my-8 flex items-center">
                     <div className="flex-grow border-t border-[#FFCC00]"></div>
-                    <h3 className="mx-4 text-3xl font-semibold text-[#FFCC00]">VISI & MISI</h3>
+                    <h2 className="mx-4 text-3xl font-semibold text-[#FFCC00]">VISI & MISI</h2>
                     <div className="flex-grow border-t border-[#FFCC00]"></div>
                 </div>
 
@@ -35,7 +35,7 @@ const VisionMission = () => {
                         </li>
                     </ul>
                     <div className="vision-mission-divider md:h-56"></div>
-                    <h2 className="mission-text">MISI</h2>
+                    <h3 className="mission-text">MISI</h3>
                 </div>
             </div>
         </section>

@@ -1,12 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaLocationDot } from "react-icons/fa6";
+import locations from '@/data/locations.json';
 
 const Location = () => {
     return (
         <section className='bg-white'>
             <div className='location-display'>
-                <h1 className='location-heading'>Lokasi</h1>
+                <h2 className='location-heading'>Lokasi</h2>
                 <p className='location-subheading'>
                     Dalam perkembangan selanjutnya, Kantor Pusat <b>PT. PANCA DUTA KARYA ABADI</b> dipindahkan ke Jayapura dan sekarang memiliki beberapa cabang, antara lain di Sorong, Manokwari, Timika dan Surabaya.
                 </p>
