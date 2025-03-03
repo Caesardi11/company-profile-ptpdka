@@ -43,7 +43,7 @@
   }
 
   .header-h1-txt {
-    @apply font-semibold text-3xl text-smokyWhite mt-1 mb-2
+    @apply font-semibold text-start text-3xl text-smokyWhite mt-1 mb-2
     md:text-4xl
     lg:text-5xl lg:mb-4;
   }
@@ -304,7 +304,7 @@
   }
 
   .heading-porto-btn {
-    @apply heading underline text-sm tracking-tight text-[#DAA520] hover:text-[#FFCC00] hover:italic
+    @apply heading underline text-sm tracking-tight text-[#DAA520] hover:text-[#FFCC00] hover:italic transition-transform duration-300 hover:translate-x-2
     md:tracking-widest md:text-base
     xl:text-xl;
   }
@@ -326,9 +326,9 @@
   }
 
   .subheading-client {
-    @apply px-16 text-center text-xs mt-3 text-gray-400
-    md:text-sm
-    lg:text-base lg:px-32
+    @apply px-16 text-center text-sm mt-3 text-gray-400
+    md:text-base
+    lg:px-32
     xl:mt-5 xl:px-36;
   }
 
@@ -365,7 +365,7 @@
   }
 
   .collab-btn {
-    @apply heading underline text-base tracking-widest text-warmWhite2 hover:text-[#FFCC00] hover:italic
+    @apply heading underline text-base tracking-widest text-warmWhite2 hover:text-[#FFCC00] hover:italic transition-transform duration-300 hover:translate-x-2
     md:text-lg
     xl:text-xl;
   }
@@ -425,7 +425,7 @@
   }
 
   .text-button {
-    @apply heading mt-6 mb-10 underline text-lg tracking-widest text-[#DAA520] hover:text-[#FFCC00] hover:italic
+    @apply heading mt-6 mb-10 underline text-lg tracking-widest text-[#DAA520] hover:text-[#FFCC00] hover:italic transition-transform duration-300 hover:translate-x-2
     lg:mt-16 lg:mb-0
     xl:text-xl;
   }
@@ -633,7 +633,8 @@
   }
 
   .certif-subheading {
-    @apply text-base text-gray-200 mb-12;
+    @apply text-sm text-gray-200 mb-12
+    md:text-base;
   }
 
   .certif-card-container {
@@ -647,5 +648,56 @@
   }
 
   /* -------CONTACT-US------- */
-  /* ----- */
+  /* -----LEFT CONTENT----- */
+  .contact-h2 {
+    @apply heading tracking-wider mb-2 font-medium text-2xl;
+  }
+
+  .contact-mail-display {
+    @apply flex flex-row gap-2 mb-5 items-center transition-transform duration-300 hover:scale-105 hover:translate-x-2;
+  }
+
+  .contact-mail-icon {
+    @apply text-2xl mt-1 text-[#DAA520];
+  }
+
+  .contact-mail-text {
+    @apply mt-1 text-gray-600 text-base;
+  }
+
+  .contact-phonenumber-content-display {
+    @apply grid grid-cols-1 gap-x-5 text-start
+    md:grid-cols-2
+    lg:grid-cols-1;
+  }
+
+  .contact-h3 {
+    @apply text-[#DAA520] text-base font-semibold;
+  }
+
+  .contact-phonenumber-content {
+    @apply flex flex-row gap-2 mb-5;
+  }
+
+  .contact-phonenumber-icon {
+    @apply text-base mt-1 text-[#DAA520];
+  }
+
+  .contact-phonenumber-text {
+    @apply mt-1 text-gray-600 text-sm;
+  }
+
+  .contact-yt-display {
+    @apply flex flex-row gap-2 mb-5 items-center transition-transform duration-300 hover:scale-105 hover:translate-x-2;
+  }
+
+  .contact-yt-icon {
+    @apply text-xl mt-1 text-[#DAA520];
+  }
+
+  .contact-yt-text {
+    @apply mt-1 text-gray-600 text-base;
+  }
+
+  /* -----RIGHT CONTENT (FORM) */
 }

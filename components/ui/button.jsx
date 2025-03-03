@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "heading bg-[#FFCC00] text-black font-medium tracking-wide hover:shadow-lg hover:shadow-smokyWhite",
+          "heading bg-[#FFCC00] text-black font-medium tracking-wide hover:shadow-lg hover:shadow-smokyWhite transition-transform duration-300 hover:scale-105",
       },
       size: {
         default: "px-4 py-2",

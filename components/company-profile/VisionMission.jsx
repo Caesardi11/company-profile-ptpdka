@@ -8,7 +8,7 @@ const VisionMission = () => {
                 {/* Bagian Visi */}
                 <div className="vision-mission-container">
                     <h3 className="vision-heading">VISI</h3>
-                    <div className="vision-mission-divider md:h-24"></div>
+                    <div className="vision-mission-divider text-sm md:text-base md:h-24"></div>
                     <p className="vision-text">
                         <b>PT. PANCA DUTA KARYA ABADI</b> berkembang dengan cara memenuhi seluruh komitmen pelanggan.
                     </p>
@@ -23,7 +23,7 @@ const VisionMission = () => {
 
                 {/* Bagian Misi */}
                 <div className="vision-mission-container">
-                    <ul className='list-disc space-y-4 text-justify'>
+                    <ul className='list-disc space-y-4 text-justify text-sm md:text-base'>
                         <li>
                             <b>PT. PANCA DUTA KARYA ABADI</b> menciptakan hasil karya yang berkualitas, orientasi pelanggan, 
                             penempatan personel yang profesional, melaksanakan aktivitas secara aman, dan menjaga kelestarian lingkungan.

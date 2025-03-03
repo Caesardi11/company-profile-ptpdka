@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaLocationDot } from "react-icons/fa6";
-import locations from '@/data/locations.json';
 
 const Location = () => {
     return (
