@@ -10,6 +10,7 @@ import {
 import { IoIosMail } from "react-icons/io";
 import { PiPhoneFill } from "react-icons/pi";
 import { ImYoutube } from "react-icons/im";
+import ContactForm from '@/components/contact-us/ContactForm';
 
 export const metadata = {
     title: 'Kontak Kami - pancadutakaryaabadi.com',
@@ -22,19 +23,19 @@ export const metadata = {
 const locations = [
     {
         title: "KANTOR PUSAT JAYAPURA",
-        phone: "+62967-537 776",
+        phone: "+62967 - 537 776",
     },
     {
         title: "KANTOR CABANG SORONG",
-        phone: "+62951-325 904",
+        phone: "+62951 - 325 904",
     },
     {
         title: "KANTOR CABANG MANOKWARI",
-        phone: "+62986-215 307 / 215 308",
+        phone: "+62986 - 215 307 / 215 308",
     },
     {
         title: "KANTOR CABANG SURABAYA",
-        phone: "+6231-355 2121",
+        phone: "+6231 - 355 2121",
     },
     {
         title: "KANTOR CABANG TIMIKA",
@@ -78,15 +79,7 @@ const ContactPage = () => {
                 </p>
                 <div className='grid grid-cols-1 gap-10 mt-10 lg:gap-16 xl:gap-20 lg:mt-20 lg:grid-cols-3'>
                     <div className='text-sm md:text-base lg:col-span-2'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam urna, feugiat non urna vitae, fermentum pretium felis. Sed ac tempus urna, quis accumsan metus. Nunc sit amet dictum orci, nec ultrices magna. In sed est quis nulla fringilla gravida vel porta velit. Sed a porttitor lorem. Aliquam id sapien et leo feugiat feugiat eget a nibh. Sed congue semper lacus ut tincidunt. Mauris placerat ultricies nisl in tempor.
-                        <br />
-                        Donec feugiat lacus ut tincidunt dapibus. Suspendisse vel ultricies nunc. Nam efficitur nisl ac diam gravida, sed vulputate turpis varius. Morbi sagittis egestas felis, at porttitor tortor ullamcorper vel. Maecenas nec elit ut ante ultricies maximus sed sed odio. Ut quis nisl et felis accumsan malesuada. Donec consectetur convallis sagittis. Proin pharetra lacinia ante in commodo. Proin nec justo ut augue varius pellentesque. Vivamus malesuada lorem a mauris scelerisque molestie. Pellentesque posuere sem vitae justo bibendum sagittis.
-                        <br />
-                        Cras facilisis nisl non porta commodo. Fusce posuere purus id sapien egestas blandit. In sed hendrerit orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse et libero neque. Suspendisse potenti. Aliquam sit amet tortor dui. Duis quis sem vitae sapien efficitur fringilla non sit amet enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer eleifend augue felis, in sollicitudin elit tempor eu.
-                        <br />
-                        Maecenas eget euismod lectus, quis rhoncus orci. Etiam semper lorem sed nisl accumsan vulputate. Donec sed finibus augue. Sed hendrerit lacinia sapien et vestibulum. Aenean ac gravida magna, id pulvinar ante. Maecenas vel sagittis purus. Morbi eleifend mauris purus, eget ullamcorper ipsum scelerisque ac. Morbi mollis nibh sapien, eu venenatis mi tristique vitae. Aenean sit amet placerat sem, id posuere odio. Sed mattis sed ante sit amet laoreet. Nam rhoncus, ligula tincidunt sollicitudin congue, libero diam scelerisque leo, id tristique augue massa iaculis dolor. Vivamus tempor maximus arcu. Ut id tellus pretium, venenatis ligula ut, tempor tortor. Curabitur eget massa non purus aliquet pharetra. Nullam molestie felis ut elit porttitor, vitae malesuada erat condimentum.
-                        <br />
-                        Mauris in eros neque. Suspendisse ac varius sem. Quisque consectetur sollicitudin odio, at ultricies augue finibus et. Phasellus commodo a libero in condimentum. Aliquam erat volutpat. Curabitur consectetur laoreet diam eu varius. Fusce in augue quis eros faucibus malesuada id vel neque. Curabitur enim nisi, egestas vel tincidunt at, condimentum quis ipsum. Nullam efficitur felis quis aliquam gravida. Integer a dolor dignissim, faucibus nunc vel, sodales velit.
+                        <ContactForm />
                     </div>
                     <div>
                         <div>
@@ -128,3 +121,6 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
+//re_NESAsiqJ_JNwFj2qgFRbVuHEQFLPdCzrg (API RESEND YANG MAU DIPAKAI)
+//re_T9FDDE85_AUpFyvpCYuwfRmi7xfNtwzx3 (API RESEND ONBOARDING)
