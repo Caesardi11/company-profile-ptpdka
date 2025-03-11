@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Mail, MessageSquare, User } from 'lucide-react';
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -30,28 +31,56 @@ export default function ContactForm() {
         setLoading(false);
 
         if (result.success) {
-            setSuccess("Pesan Anda telah terkirim!");
+            setSuccess("Pesan Anda berhasil terkirim!");
             setFormData({ name: "", email: "", subject: "", message: "" });
         } else {
             setSuccess("Gagal mengirim pesan. Coba lagi nanti.");
         }
     };
 
+    useEffect(() => {
+        if (success) {
+            const timer = setTimeout(() => {
+                setSuccess(null);
+            }, 3000); 
+
+            return () => clearTimeout(timer);
+        }
+    }, [success]);
+
     return (
-        <section className="bg-[#121212] text-[#F5F5F5] py-10">
-            <div className="max-w-3xl mx-auto px-6 bg-white bg-opacity-20 backdrop-blur-lg p-8 rounded-lg shadow-lg">
-                <h2 className="text-3xl font-bold text-center text-[#FFCC00] mb-6">Hubungi Kami</h2>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                    <input type="text" name="name" placeholder="Nama Lengkap" value={formData.name} onChange={handleChange} required className="w-full p-3 bg-transparent border border-gray-300 rounded-md text-white" />
-                    <input type="email" name="email" placeholder="Email Anda" value={formData.email} onChange={handleChange} required className="w-full p-3 bg-transparent border border-gray-300 rounded-md text-white" />
-                    <input type="text" name="subject" placeholder="Subjek" value={formData.subject} onChange={handleChange} required className="w-full p-3 bg-transparent border border-gray-300 rounded-md text-white" />
-                    <textarea name="message" placeholder="Pesan Anda" value={formData.message} onChange={handleChange} required rows="4" className="w-full p-3 bg-transparent border border-gray-300 rounded-md text-white"></textarea>
-                    <button type="submit" className="w-full bg-[#FFCC00] text-black font-bold py-3 rounded-md">
-                        {loading ? "Mengirim..." : "Kirim Pesan"}
-                    </button>
-                </form>
-                {success && <p className="text-center mt-4">{success}</p>}
-            </div>
+        <section className="bg-[#121212]/90 text-[#F5F5F5] p-10 rounded-md shadow-2xl">
+            <form onSubmit={handleSubmit} className="space-y-5 text-start">
+                <div>
+                    <label htmlFor="name" className="heading block mb-1 text-base leading-relaxed tracking-wider">Nama Lengkap <span className="text-red-500">*</span></label>
+                    <div className="flex items-center text-center">
+                        <User className="absolute ml-3 p-1 bg-[#DAA520] rounded-full" />
+                        <input type="text" name="name" placeholder="Nama Anda" value={formData.name} onChange={handleChange} required className="w-full py-3 px-5 pl-11 bg-coolWhite rounded-lg text-sm text-black focus:outline-none" />
+                    </div>
+                </div>
+                <div>
+                    <label htmlFor="email" className="heading block mb-1 text-base leading-relaxed tracking-wider">Email <span className="text-red-500">*</span></label>
+                    <div className="flex items-center text-center">
+                        <Mail className="absolute ml-3 p-1 bg-[#DAA520] rounded-full" />
+                        <input type="email" name="email" placeholder="Email Anda" value={formData.email} onChange={handleChange} required className="w-full py-3 px-5 pl-11 bg-coolWhite rounded-lg text-sm text-black focus:outline-none" />
+                    </div>
+                </div>
+                <div>
+                    <label htmlFor="subject" className="heading block mb-1 text-base leading-relaxed tracking-wider">Subyek <span className="text-red-500">*</span></label>
+                    <div className="flex items-center text-center">
+                        <MessageSquare className="absolute ml-3 p-1 bg-[#DAA520] rounded-full" />
+                        <input type="text" name="subject" placeholder="cth : Konstruksi gedung hunian, perkantoran, dan bangunan sipil jalan" value={formData.subject} onChange={handleChange} required className="w-full py-3 px-5 pl-11 bg-coolWhite rounded-lg text-sm text-black focus:outline-none" />
+                    </div>
+                </div>
+                <div>
+                    <label htmlFor="message" className="heading block mb-1 text-base leading-relaxed tracking-wider">Catatan atau pertanyaan spesifik terkait proyek <span className="text-red-500">*</span></label>
+                    <textarea name="message" placeholder="Masukkan pesan Anda disini" value={formData.message} onChange={handleChange} required rows="6" className="w-full py-3 px-5 bg-coolWhite rounded-lg text-sm text-black focus:outline-none"></textarea>
+                </div>
+                <button type="submit" className="w-full bg-[#DAA520] text-black font-bold py-3 rounded-md hover:bg-[#FFCC00]">
+                    {loading ? "Mengirim..." : "Kirim Pesan"}
+                </button>
+            </form>
+            {success && <p className="text-center text-coolWhite mt-7">{success}</p>}
         </section>
     );
 }
