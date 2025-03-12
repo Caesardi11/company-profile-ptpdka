@@ -20,7 +20,7 @@ export default function Home() {
             <Carousel />
             <section className="content-container">
                 <p className="quote">
-                    "(Bisa diganti) Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... (Bisa diganti)"
+                    "Mewujudkan Komitmen, Membangun Kualitas, Mengutamakan Kepuasan."
                 </p>
                 <div className="grid-container">
                     <iframe

@@ -37,11 +37,12 @@ const Carousel = () => {
             <div className="carousel-container">
                 <h1 className="carousel-heading pointer-events-none">PT. PANCA DUTA KARYA ABADI</h1>
                 <h2 className="carousel-subheading pointer-events-none">Engineering Bureau & General Contractor</h2>
-                <p className="carousel-info">
+                {/* <p className="carousel-info">
                     <TfiEmail/> <a href="mailto:ptpdka@persero.co.id">ptpdka@persero.co.id</a>
                         <RxDividerVertical className="ml-5"/> <RxDividerVertical className="mr-5"/>
                     <BsWhatsapp /> <a href="https://wa.me/628113621253" target="_blank" rel="noopener noreferrer">+62 811-3621-253</a>
-                </p>
+                    <a href="/contact-us" className="collab-btn"> Konsultasikan dengan kami → </a>
+                </p> */}
             </div>
         </section>
     );

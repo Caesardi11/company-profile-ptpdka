@@ -648,56 +648,110 @@
   }
 
   /* -------CONTACT-US------- */
+  .contact-container {
+    @apply gap-10 my-7 mx-auto px-8 text-justify
+    md:px-16
+    lg:px-28
+    xl:grid-cols-2 xl:my-16
+    2xl:px-32
+    max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl;
+  }
+
+  .contact-heading {
+    @apply heading font-semibold text-[#DAA520] text-3xl tracking-wider mb-7
+    md:text-3xl
+    lg:text-4xl;
+  }
+  .contact-subheading {
+    @apply text-sm md:text-base;
+  }
+
+  .contact-content-display {
+    @apply grid grid-cols-1 gap-10 mt-10
+    lg:gap-16 lg:mt-16 lg:grid-cols-3
+    xl:gap-20;
+  }
+
   /* -----LEFT CONTENT----- */
-  .contact-h2 {
+  .left-contact-container {
+    @apply bg-[#121212]/90 text-[#F5F5F5] p-10 rounded-md shadow-2xl;
+  }
+
+  .left-contact-label {
+    @apply heading block mb-1 text-base leading-relaxed tracking-wider;
+  }
+
+  .left-input-container {
+    @apply flex items-center text-center;
+  }
+
+  .left-contact-icon {
+    @apply absolute ml-3 p-1 bg-[#DAA520] rounded-full;
+  }
+
+  .left-contact-input {
+    @apply w-full py-3 px-5 bg-coolWhite rounded-lg text-sm text-black focus:outline-none;
+  }
+  .left-contact-input-with-icon {
+    @apply w-full py-3 px-5 bg-coolWhite rounded-lg text-sm text-black focus:outline-none pl-11;
+  }
+
+  .left-form-btn {
+    @apply w-full bg-[#DAA520] text-black font-bold py-3 rounded-md hover:bg-[#FFCC00];
+  }
+
+  .success-msg {
+    @apply text-center text-coolWhite mt-7;
+  }
+
+  /* -----RIGHT CONTENT----- */
+  .right-contact-h2 {
     @apply heading tracking-wider mb-2 font-medium text-2xl;
   }
 
-  .contact-mail-display {
+  .right-contact-mail-display {
     @apply flex flex-row gap-2 mb-5 items-center transition-transform duration-300 hover:scale-105 hover:translate-x-2;
   }
 
-  .contact-mail-icon {
+  .right-contact-mail-icon {
     @apply text-2xl mt-1 text-[#DAA520];
   }
 
-  .contact-mail-text {
+  .right-contact-mail-text {
     @apply mt-1 text-gray-600 text-base;
   }
 
-  .contact-phonenumber-content-display {
+  .right-contact-phonenumber-content-display {
     @apply grid grid-cols-1 gap-x-5 text-start
     md:grid-cols-2
     lg:grid-cols-1;
   }
 
-  .contact-h3 {
+  .right-contact-h3 {
     @apply text-[#DAA520] text-base font-semibold;
   }
 
-  .contact-phonenumber-content {
+  .right-contact-phonenumber-content {
     @apply flex flex-row gap-2 mb-5;
   }
 
-  .contact-phonenumber-icon {
+  .right-contact-phonenumber-icon {
     @apply text-base mt-1 text-[#DAA520];
   }
 
-  .contact-phonenumber-text {
+  .right-contact-phonenumber-text {
     @apply mt-1 text-gray-600 text-sm;
   }
 
-  .contact-yt-display {
+  .right-contact-yt-display {
     @apply flex flex-row gap-2 mb-5 items-center transition-transform duration-300 hover:scale-105 hover:translate-x-2;
   }
 
-  .contact-yt-icon {
+  .right-contact-yt-icon {
     @apply text-xl mt-1 text-[#DAA520];
   }
 
-  .contact-yt-text {
+  .right-contact-yt-text {
     @apply mt-1 text-gray-600 text-base;
   }
-
-  /* -----RIGHT CONTENT (FORM) */
 }

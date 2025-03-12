@@ -20,7 +20,7 @@ const Collaboration = () => {
                         Hubungi kami dan mulailah perjalanan Anda dalam mewujudkan proyek impian berkualitas tinggi bersama tim ahli kami.
                     </p>
                     <div className="collab-btn">
-                        <a href="/contact"> Konsultasikan dengan kami → </a>
+                        <a href="/contact-us"> Konsultasikan dengan kami → </a>
                     </div>
                 </div>
             </div>

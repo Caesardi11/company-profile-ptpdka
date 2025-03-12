@@ -45,14 +45,14 @@ const ContactPage = () => {
                     </Breadcrumb>
                 </div>
             </section>
-            <section className='gap-10 my-7 mx-auto px-8 text-justify md:px-16 lg:px-28 xl:grid-cols-2 xl:my-16 2xl:px-32 max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl'>
-                <h2 className='heading font-semibold text-[#DAA520] text-3xl tracking-wider mb-7 md:text-3xl lg:text-4xl'>
+            <section className='contact-container'>
+                <h2 className='contact-heading'>
                     Hubungi Kami
                 </h2>
-                <p className='text-sm md:text-base'>
+                <p className='contact-subheading'>
                     Harap isi formulir di bawah ini dan Tim kami akan dengan senang hati menjawab pertanyaan Anda.
                 </p>
-                <div className='grid grid-cols-1 gap-10 mt-10 lg:gap-16 xl:gap-20 lg:mt-16 lg:grid-cols-3'>
+                <div className='contact-content-display'>
                     <div className='lg:col-span-2'>
                         <ContactForm />
                     </div>

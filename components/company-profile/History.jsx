@@ -5,7 +5,7 @@ const History = () => {
     return (
         <section className='history-container'>
             <div className='flex justify-center'>
-                <Image src='/foto-karyawan.webp' alt='karyawan-pdka' className='w-full lg:w-3/4 xl:w-full 2xl:w-3/4' width={965} height={1240} />
+                <Image src='/foto-karyawan.webp' alt='karyawan-pdka' className='w-full md:w-3/4 xl:w-5/6 2xl:w-3/4' width={965} height={1240} />
             </div>
             <div>
                 <h1 className='history-heading'>Sejarah</h1>

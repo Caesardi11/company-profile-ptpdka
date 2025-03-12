@@ -30,23 +30,23 @@ const ContactDetail = () => {
     return (
         <div>
             <div>
-                <h2 className='contact-h2'>Kontak Kami</h2>
+                <h2 className='right-contact-h2'>Kontak Kami</h2>
                 <a href='mailto:ptpdka@persero.co.id'>
-                    <div className='contact-mail-display'>
-                        <IoIosMail className='contact-mail-icon' />
-                        <p className='contact-mail-text'>ptpdka@persero.co.id</p>
+                    <div className='right-contact-mail-display'>
+                        <IoIosMail className='right-contact-mail-icon' />
+                        <p className='right-contact-mail-text'>ptpdka@persero.co.id</p>
                     </div>
                 </a>
-                <div className='contact-phonenumber-content-display'>
+                <div className='right-contact-phonenumber-content-display'>
                     {locations
                         .filter((location) => location.phone)
                         .map((location, index) => (
                             <div key={index}>
                                 <div className='transition-transform duration-300 hover:translate-x-2'>
-                                    <h3 className='contact-h3'>{location.title}</h3>
-                                    <div className='contact-phonenumber-content'>
-                                        <PiPhoneFill className='contact-phonenumber-icon' />
-                                        <p className='contact-phonenumber-text'>{location.phone}</p>
+                                    <h3 className='right-contact-h3'>{location.title}</h3>
+                                    <div className='right-contact-phonenumber-content'>
+                                        <PiPhoneFill className='right-contact-phonenumber-icon' />
+                                        <p className='right-contact-phonenumber-text'>{location.phone}</p>
                                     </div>
                                 </div>
                             </div>
@@ -54,15 +54,15 @@ const ContactDetail = () => {
                 </div>
             </div>
             <div className='mt-3 md:mt-0 lg:mt-4'>
-                <h2 className='contact-h2'>Ikuti Kami</h2>
+                <h2 className='right-contact-h2'>Ikuti Kami</h2>
                 <a
                     href='https://youtube.com/@pancadutakaryaabadi?si=15UhlKS5XaRAdLd-'
                     target='_blank'
                     rel='noopener noreferrer'
                 >
-                    <div className='contact-yt-display'>
-                        <ImYoutube className='contact-yt-icon' />
-                        <p className='contact-yt-text'>Panca Duta Karya Abadi</p>
+                    <div className='right-contact-yt-display'>
+                        <ImYoutube className='right-contact-yt-icon' />
+                        <p className='right-contact-yt-text'>Panca Duta Karya Abadi</p>
                     </div>
                 </a>
             </div>
