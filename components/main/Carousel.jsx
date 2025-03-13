@@ -1,8 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import { TfiEmail } from "react-icons/tfi";
-import { RxDividerVertical } from "react-icons/rx";
-import { BsWhatsapp } from "react-icons/bs";
 
 const images = [
     "/project/project-10.webp",
@@ -23,7 +20,7 @@ const Carousel = () => {
     }, []);
 
     return (
-        <section className="relative w-full h-screen overflow-hidden">
+        <section className="relative w-full h-screen">
             {images.map((image, index) => (
                 <div
                     key={index}
@@ -37,12 +34,6 @@ const Carousel = () => {
             <div className="carousel-container">
                 <h1 className="carousel-heading pointer-events-none">PT. PANCA DUTA KARYA ABADI</h1>
                 <h2 className="carousel-subheading pointer-events-none">Engineering Bureau & General Contractor</h2>
-                {/* <p className="carousel-info">
-                    <TfiEmail/> <a href="mailto:ptpdka@persero.co.id">ptpdka@persero.co.id</a>
-                        <RxDividerVertical className="ml-5"/> <RxDividerVertical className="mr-5"/>
-                    <BsWhatsapp /> <a href="https://wa.me/628113621253" target="_blank" rel="noopener noreferrer">+62 811-3621-253</a>
-                    <a href="/contact-us" className="collab-btn"> Konsultasikan dengan kami → </a>
-                </p> */}
             </div>
         </section>
     );

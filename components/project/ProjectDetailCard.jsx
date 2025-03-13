@@ -30,7 +30,7 @@ const ProjectDetailCard = ({ project }) => {
                                 key={index}
                                 src={img}
                                 alt="Thumbnail"
-                                className={`w-16 h-14 md:w-20 md:h-16 cursor-pointer rounded-md object-cover border-2 ${selectedImage === img ? "border-[#FFCC00]" : "border-transparent"}`}
+                                className={`w-12 h-10 md:w-20 md:h-16 cursor-pointer rounded-md object-cover border-2 ${selectedImage === img ? "border-[#FFCC00]" : "border-transparent"}`}
                                 onClick={() => setSelectedImage(img)}
                                 width={300}
                                 height={300}

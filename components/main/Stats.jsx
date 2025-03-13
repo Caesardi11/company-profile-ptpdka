@@ -43,7 +43,7 @@ const StatItem = ({ stat }) => {
         <div ref={ref} className="stats-item">
             <div className="stats-value">
                 <dd className="stats-value1">
-                    {inView ? <CountUp end={stat.value1} duration={2} /> : '0'}+
+                    {inView ? <CountUp end={stat.value1} duration={3} /> : '0'}+
                 </dd>
                 <dd className="stats-value2">
                     {stat.value2}

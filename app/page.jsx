@@ -16,7 +16,6 @@ export const metadata = {
 export default function Home() {
     return (
         <>
-            {/* <Navbar variant="homepage"/> */}
             <Carousel />
             <section className="content-container">
                 <p className="quote">

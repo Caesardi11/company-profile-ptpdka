@@ -206,7 +206,7 @@
   /* -----HOMEPAGE COMPONENT----- */
   /*---Carousel---*/
   .carousel-img {
-    @apply absolute inset-0 w-full h-full bg-cover bg-center transition-opacity duration-1000;
+    @apply absolute inset-0 w-full h-screen bg-cover bg-center transition-opacity duration-1000;
   }
 
   .carousel-container {
@@ -227,12 +227,6 @@
     md:text-lg
     lg:text-xl
     xl:text-2xl;
-  }
-
-  .carousel-info {
-    @apply
-    text-[#DAA520] mt-14 inline-flex items-center gap-2 text-sm
-    md:text-base;
   }
 
   /* ---Stats--- */
@@ -297,7 +291,7 @@
   }
 
   .heading-porto-text {
-    @apply heading font-semibold text-[#DAA520] text-xl
+    @apply heading font-semibold text-[#DAA520] text-base
     md:text-2xl
     lg:text-3xl
     xl:text-4xl;
